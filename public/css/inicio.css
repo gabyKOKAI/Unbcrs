@@ -1,0 +1,241 @@
+.flex-container{
+    display: -webkit-flex;
+    display: flex;  
+    -webkit-flex-flow: row wrap;
+    flex-flow: row wrap;
+    text-align: center;
+}
+.flex-container > * {
+    /*padding: 15px;*/
+    -webkit-flex: 1 100%;
+    flex: 1 100%;
+}
+
+.imgIzqPlanes{
+	background-image: url('/images/inicio/planes_izq.jpg');
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	height: 0px;
+}
+.imgDerPlanes{
+	background-image: url('/images/inicio/planes_der.jpg');
+    background-repeat: no-repeat;
+	background-size: 100% 100%;
+	text-align: left;
+	width: 100%;
+	height: 200px;
+}
+.imgDerPlanesTxt{
+	background-image: url('/images/inicio/planes_txt_der.png');
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-position: center center;
+	height: 200px;
+	}
+
+.imgIzqQuienes{
+	/*background-image: url('/images/inicio/quienes_somos_izq.jpg');
+	background-repeat: no-repeat;
+	background-size: 100% 100%;*/
+	height: 206px;
+}
+.imgIzqQuienesTxt{
+	background-image: url('/images/inicio/quienes_somos_txt_izq.png');
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-position: center center;
+	height: 206px;
+}
+.imgDerQuienes{
+	background-image: url('/images/inicio/quienes_somos_der.jpg');
+    background-repeat: no-repeat;
+	background-size: 100% 100%;
+	text-align: left;
+	width: 100%;
+	height: 206px;
+}
+.imgDerQuienesTxt{
+	background-image: url('/images/inicio/quienes_somos_txt_der.png');
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-position: 100% 100%;
+	height: 206px;
+}
+
+.imgArrColocacion{
+	background-image: url('/images/inicio/colocacion_arr.jpg');
+    background-repeat: no-repeat;
+	background-size: 100% 100%;
+	width: 100%;
+	height: 168px;
+}
+.imgArrColocacionTxt{
+	background-image: url('/images/inicio/colocacion_txt_arr.png');
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	height: 168px;
+}
+.imgAbjColocacion{
+	background-image: url('/images/inicio/colocacion_abj.jpg');
+    background-repeat: no-repeat;
+	background-size: 100% 100%;
+	width: 100%;
+	height: 175px;
+}
+.imgAbjColocacionTxt{
+	background-image: url('/images/inicio/colocacion_txt_abj.png');
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	height: 175px;
+}
+.imgAbjColocacionCubo{
+	background-image: url('/images/inicio/cubo_estudiantes.png'), url('/images/inicio/cubo_unversidades.png');
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	height: 132px;
+}
+
+.imgProgramas{
+	background-image: url('/images/inicio/programas_arr.png');
+    background-repeat: no-repeat;
+	background-size: 100% 100%;
+	width: 100%;
+	height: 179px;
+}
+
+/*ESTO ES PARA GRANDE*/
+@media all and (min-width: 768px){
+    .imgIzqPlanes{
+		-webkit-flex: 1 auto;
+		flex:1 auto;
+		-webkit-order:1;
+		order:1;
+		background-image: url('/images/inicio/planes_izq.jpg');
+		background-repeat: no-repeat;
+		background-size: 100% 100%;
+		height: 401px;
+	}
+    .imgDerPlanes{
+		-webkit-flex:5 0px;
+		flex:5 0px;
+		-webkit-order:2;
+		order:2;
+		background-image: url('/images/inicio/planes_der.jpg');
+		background-repeat: no-repeat;
+		background-size: 100% 100%;
+		text-align:left;
+		width: 100%;
+		height: 401px;
+		}
+	.imgDerPlanesTxt{
+		-webkit-flex: 1 auto;
+		flex:1 auto;
+		-webkit-order:1;
+		order:1;
+		background-image: url('/images/inicio/planes_txt_der.png');
+		background-repeat: no-repeat;
+		background-size: contain;
+		background-position: center center;
+		height: 201px;
+	}
+	
+	.imgIzqQuienes{
+		-webkit-flex: 1 auto;
+		flex:1 auto;
+		-webkit-order:1;
+		order:1;
+		background-image: url('/images/inicio/quienes_somos_izq.jpg');
+		background-repeat: no-repeat;
+		background-size: 100% 100%;
+		height: 412px;
+	}
+	.imgIzqQuienesTxt{
+		-webkit-flex: 1 auto;
+		flex:1 auto;
+		-webkit-order:1;
+		order:1;
+		background-image: url('/images/inicio/quienes_somos_txt_izq.png');
+		background-repeat: no-repeat;
+		background-size: contain;
+		background-position: center center;
+		height: 412px;
+	}
+    .imgDerQuienes{
+		-webkit-flex:5 0px;
+		flex:5 0px;
+		-webkit-order:2;
+		order:2;
+		background-image: url('/images/inicio/quienes_somos_der.jpg');
+		background-repeat: no-repeat;
+		background-size: 100% 100%;
+		text-align:left;
+		height: 412px;
+		}
+	.imgDerQuienesTxt{
+		-webkit-flex: 1 auto;
+		flex:1 auto;
+		-webkit-order:1;
+		order:1;
+		background-image: url('/images/inicio/quienes_somos_txt_der.png');
+		background-repeat: no-repeat;
+		background-size: 100% 100%;
+		height: 412px;
+	}
+	
+	.imgArrColocacion{
+		-webkit-flex:5 0px;
+		flex:5 0px;
+		-webkit-order:2;
+		order:2;
+		background-image: url('/images/inicio/colocacion_arr.jpg');
+		background-repeat: no-repeat;
+		background-size: 100% 100%;
+		width: 100%;
+		height: 336px;
+	}
+	.imgArrColocacionTxt{
+		-webkit-flex: 1 auto;
+		flex:1 auto;
+		-webkit-order:1;
+		order:1;
+		background-image: url('/images/inicio/colocacion_txt_arr.png');
+		background-repeat: no-repeat;
+		background-size: 100% 100%;
+		height: 336px;
+	}
+	.imgAbjColocacion{
+		-webkit-flex:5 0px;
+		flex:5 0px;
+		-webkit-order:2;
+		order:2;
+		background-image: url('/images/inicio/colocacion_abj.jpg');
+		background-repeat: no-repeat;
+		background-size: 100% 100%;
+		width: 100%;
+		height: 350px;
+	}
+	.imgAbjColocacionTxt{
+		-webkit-flex: 1 auto;
+		flex:1 auto;
+		-webkit-order:1;
+		order:1;
+		background-image: url('/images/inicio/colocacion_txt_abj.png');
+		background-repeat: no-repeat;
+		background-size: 100% 100%;
+		height: 350px;
+	}
+	.imgAbjColocacionCubo{
+		background-image: url('/images/inicio/cubo_estudiantes.png');
+		background-repeat: no-repeat;
+		background-size: 100% 100%;
+		height: 265px;
+	}	
+	
+	.imgProgramas{
+	background-image: url('/images/inicio/programas_arr.png');
+    background-repeat: no-repeat;
+	background-size: 100% 100%;
+	width: 100%;
+	height: 358px;
+	}
+}

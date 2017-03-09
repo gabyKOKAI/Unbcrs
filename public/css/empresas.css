@@ -1,0 +1,117 @@
+.flex-container{
+    display: -webkit-flex;
+    display: flex;  
+    -webkit-flex-flow: row wrap;
+    flex-flow: row wrap;
+    text-align: center;
+}
+.flex-container > * {
+    /*padding: 15px;*/
+    -webkit-flex: 1 100%;
+    flex: 1 100%;
+}
+
+.imgRecursos{
+	background-image: url('/images/empresas/Empresas_bkg_02.jpg');
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	/*background-size: contain;*/
+	background-position: top center;
+	height: 228px;
+}
+.titEmpresas{
+	background-image: url('/images/empresas/Tit_empresas.png');
+    background-repeat: no-repeat;
+	background-size: contain;
+	background-position: top center;
+	height: 30px;
+}
+.imgRecursosTxt{
+	background-image: url('/images/empresas/Empresas_txt_02.png');
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	/*background-size: contain;*/
+	background-position: top center;
+	height: 228px;
+	}
+
+.imgCompromiso{
+	background-image: url('/images/empresas/Empresas_bkg_03.jpg');
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	/*background-size: contain;*/
+	background-position: center center;
+	height: 280px;
+}
+.imgCompromisoTxt{
+	background-image: url('/images/empresas/Empresas_txt_03.png');
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	/*background-size: contain;*/
+	background-position: center center;
+	height: 280px;
+	}
+	
+/*ESTO ES PARA GRANDE*/
+@media all and (min-width: 768px){
+    .imgRecursos{
+		-webkit-flex:5 0px;
+		flex:5 0px;
+		-webkit-order:2;
+		order:2;
+		background-image: url('/images/empresas/Empresas_bkg_02.jpg');
+		background-repeat: no-repeat;
+		background-size: 100% 100%;
+		/*background-size: contain;*/
+		width: 100%;
+		height: 685px;
+		}
+	.titEmpresas{
+		-webkit-flex: 1 auto;
+		flex:1 auto;
+		-webkit-order:1;
+		order:1;
+		background-image: url('/images/empresas/Tit_empresas.png');
+		background-repeat: no-repeat;
+		background-size: 100% 100%;
+		width: 100%;
+		height: 54px;
+	}
+	.imgRecursosTxt{
+		-webkit-flex: 1 auto;
+		flex:1 auto;
+		-webkit-order:1;
+		order:1;
+		background-image: url('/images/empresas/Empresas_txt_02.png');
+		background-repeat: no-repeat;
+		background-size: 100% 100%;
+		/*background-size: contain;*/
+		background-position: center center;
+		height: 685px;
+	}
+	
+	.imgCompromiso{
+		-webkit-flex:5 0px;
+		flex:5 0px;
+		-webkit-order:2;
+		order:2;
+		background-image: url('/images/empresas/Empresas_bkg_03.jpg');
+		background-repeat: no-repeat;
+		background-size: 100% 100%;
+		/*background-size: contain;*/
+		background-position: center center;
+		height: 835px;
+		}
+	.imgCompromisoTxt{
+		-webkit-flex: 1 auto;
+		flex:1 auto;
+		-webkit-order:1;
+		order:1;
+		background-image: url('/images/empresas/Empresas_txt_03.png');
+		background-repeat: no-repeat;
+		background-size: 100% 100%;
+		/*background-size: contain;*/
+		background-position: center center;
+		height: 835px;
+	}
+}

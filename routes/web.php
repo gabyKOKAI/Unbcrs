@@ -39,3 +39,5 @@ Route::get('/practice1', function() {
 */
 
 Route::get('/', 'InicioController@pagInicio');
+Route::get('/somos', 'InicioController@pagInicio');
+Route::get('/empresas', 'EmpresasController@pagEmpresas');

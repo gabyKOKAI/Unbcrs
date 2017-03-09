@@ -55,6 +55,8 @@
 
 @extends('_master')
 
+<link rel="stylesheet" href="{{URL::asset('/css/inicio.css')}}" type="text/css"> 
+
 @section ('content')
 	
 	<!--Planes para el futuro-->
@@ -95,6 +97,8 @@
 	<div class="flex-container">
 		<div class="imgAbjColocacion">
 			<div class="imgAbjColocacionTxt">
+				<div class="imgAbjColocacionCubo">
+				</div>
 			</div>	
 		</div>
 	</div>
