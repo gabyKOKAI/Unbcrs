@@ -29,7 +29,7 @@
 				
 				<!--Redes sociales: falta poner padding-->
 				<div class= "col-md-3">
-					<a href='/'><img src= "{{URL::asset('/images/facebook.png')}}" alt="Unibecarios Facebook"/></a>
+					<a href='/'><img src= "{{URL::asset('/images/fb1.png')}}" alt="Unibecarios Facebook"/></a>
 					<a href='/'><img src= "{{URL::asset('/images/linkedin.png')}}" alt="Unibecarios Linkedin"/></a>
 					<a href='/'><img src= "{{URL::asset('/images/twitter.png')}}" alt="Unibecarios Twitter"/></a>
 				</div>
