@@ -11,6 +11,31 @@
 |
 */
 
-Route::get('/', function () {
+/*Route::get('/', function () {
     return view('welcome');
 });
+
+Route::get('/', function()
+{
+	return View::make('index');
+});
+
+Route::get('/practice', function() {
+
+    echo 'Hello World!';
+    echo App::environment();
+});
+
+Route::get('/practice1', function() {
+
+    $data = Array('foo' => 'bar');
+    Debugbar::info($data);
+    Debugbar::error('Error!');
+    Debugbar::warning('Watch out…');
+    Debugbar::addMessage('Another message', 'mylabel');
+
+    return 'Practice';
+});
+*/
+
+Route::get('/', 'InicioController@pagInicio');

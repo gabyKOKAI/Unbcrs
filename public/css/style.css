@@ -1,0 +1,231 @@
+ /*html, body {
+	background-color: #fff;
+	color: #636b6f;
+	font-family: 'Raleway', sans-serif;
+	font-weight: 100;
+	height: 100vh;
+	margin: 0;
+}
+
+.full-height {
+	height: 100vh;
+}
+
+.flex-center {
+	align-items: center;
+	display: flex;
+	justify-content: center;
+}
+
+.position-ref {
+	position: relative;
+}
+
+.top-right {
+	position: absolute;
+	right: 10px;
+	top: 18px;
+}
+
+.content {
+	text-align: center;
+}
+
+.title {
+	font-size: 84px;
+}
+
+.links > a {
+	color: #636b6f;
+	padding: 0 25px;
+	font-size: 12px;
+	font-weight: 600;
+	letter-spacing: .1rem;
+	text-decoration: none;
+	text-transform: uppercase;
+}
+
+.m-b-md {
+	margin-bottom: 30px;
+}
+*/
+/*
+body{
+	text-align:center;
+}
+.row1 {
+  display: inline-block;
+  margin-top: 25px;
+  position: relative;  
+}
+
+.row1 img {
+  display: block;
+  max-width:100%;
+}
+
+.row1 .overlay {
+  position: absolute;
+  top:0;
+  left:0;
+  width:100%;
+  height:100%;
+  color:black;
+}
+*/
+
+.flex-container {
+    display: -webkit-flex;
+    display: flex;  
+    -webkit-flex-flow: row wrap;
+    flex-flow: row wrap;
+    text-align: center;
+}
+
+.flex-container > * {
+    /*padding: 15px;*/
+    -webkit-flex: 1 100%;
+    flex: 1 100%;
+}
+
+.imgIzqPlanes {
+	background-image: url('/images/inicio/planes iz.jpg');
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	height: 0px;
+}
+
+.imgDerPlanes {
+	background-image: url('/images/inicio/planes der.jpg');
+    background-repeat: no-repeat;
+	background-size: 100% 100%;
+	text-align: left;
+	width: 100%;
+	height: 200px;
+}
+
+.imgDerPlanesTxt{
+	background-image: url('/images/inicio/planes_txt_der.png');
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-position: center center;
+	height: 200px;
+	}
+
+.imgIzqQuienes {
+	/*background-image: url('/images/inicio/quienes_somos_izq.jpg');
+	background-repeat: no-repeat;
+	background-size: 100% 100%;*/
+	height: 206px;
+}
+
+.imgIzqQuienesTxt
+{
+	background-image: url('/images/inicio/quienes_somos_txt_izq.png');
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-position: center center;
+	height: 206px;
+}
+
+.imgDerQuienes {
+	background-image: url('/images/inicio/quienes_somos_der.jpg');
+    background-repeat: no-repeat;
+	background-size: 100% 100%;
+	text-align: left;
+	width: 100%;
+	height: 206px;
+}
+
+.imgDerQuienesTxt
+{
+	background-image: url('/images/inicio/quienes_somos_txt_der.png');
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-position: 100% 100%;
+	height: 206px;
+}
+
+/*ESTO ES PARA GRANDE*/
+@media all and (min-width: 768px) {
+    .imgIzqPlanes {
+		-webkit-flex: 1 auto;
+		flex:1 auto;
+		-webkit-order:1;
+		order:1;
+		background-image: url('/images/inicio/planes iz.jpg');
+		background-repeat: no-repeat;
+		background-size: 100% 100%;
+		height: 401px;
+	}
+    .imgDerPlanes {
+		-webkit-flex:5 0px;
+		flex:5 0px;
+		-webkit-order:2;
+		order:2;
+		background-image: url('/images/inicio/planes der.jpg');
+		background-repeat: no-repeat;
+		background-size: 100% 100%;
+		text-align:left;
+		width: 100%;
+		height: 401px;
+		}
+	.imgDerPlanesTxt{
+		-webkit-flex: 1 auto;
+		flex:1 auto;
+		-webkit-order:1;
+		order:1;
+		background-image: url('/images/inicio/planes_txt_der.png');
+		background-repeat: no-repeat;
+		background-size: contain;
+		background-position: center center;
+		height: 201px;
+	}
+	.imgIzqQuienes {
+		-webkit-flex: 1 auto;
+		flex:1 auto;
+		-webkit-order:1;
+		order:1;
+		background-image: url('/images/inicio/quienes_somos_izq.jpg');
+		background-repeat: no-repeat;
+		background-size: 100% 100%;
+		height: 412px;
+	}
+	.imgIzqQuienesTxt
+	{
+		-webkit-flex: 1 auto;
+		flex:1 auto;
+		-webkit-order:1;
+		order:1;
+		background-image: url('/images/inicio/quienes_somos_txt_izq.png');
+		background-repeat: no-repeat;
+		background-size: contain;
+		background-position: center center;
+		height: 412px;
+	}
+    .imgDerQuienes {
+		-webkit-flex:5 0px;
+		flex:5 0px;
+		-webkit-order:2;
+		order:2;
+		background-image: url('/images/inicio/quienes_somos_der.jpg');
+		background-repeat: no-repeat;
+		background-size: 100% 100%;
+		text-align:left;
+		height: 412px;
+		}
+	.imgDerQuienesTxt
+	{
+		-webkit-flex: 1 auto;
+		flex:1 auto;
+		-webkit-order:1;
+		order:1;
+		background-image: url('/images/inicio/quienes_somos_txt_der.png');
+		background-repeat: no-repeat;
+		/*background-size: contain;*/
+		background-position: left bottom;
+		height: 412px;
+	}
+		
+
+}
