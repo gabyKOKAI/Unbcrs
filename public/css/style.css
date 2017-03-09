@@ -89,14 +89,14 @@ body{
 }
 
 .imgIzqPlanes {
-	background-image: url('/images/inicio/planes iz.jpg');
+	background-image: url('/images/inicio/planes_izq.jpg');
 	background-repeat: no-repeat;
 	background-size: 100% 100%;
 	height: 0px;
 }
 
 .imgDerPlanes {
-	background-image: url('/images/inicio/planes der.jpg');
+	background-image: url('/images/inicio/planes_der.jpg');
     background-repeat: no-repeat;
 	background-size: 100% 100%;
 	text-align: left;
@@ -146,6 +146,36 @@ body{
 	height: 206px;
 }
 
+.imgArrColocacion {
+	background-image: url('/images/inicio/colocacion_arr.jpg');
+    background-repeat: no-repeat;
+	background-size: 100% 100%;
+	width: 100%;
+	height: 174px;
+}
+.imgArrColocacionTxt
+{
+	background-image: url('/images/inicio/colocacion_txt_arr.png');
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	height: 174px;
+}
+
+.imgAbjColocacion {
+	background-image: url('/images/inicio/colocacion_abj.jpg');
+    background-repeat: no-repeat;
+	background-size: 100% 100%;
+	width: 100%;
+	height: 268px;
+}
+.imgAbjColocacionTxt
+{
+	background-image: url('/images/inicio/colocacion_txt_abj.png');
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	height: 268px;
+}
+
 /*ESTO ES PARA GRANDE*/
 @media all and (min-width: 768px) {
     .imgIzqPlanes {
@@ -153,18 +183,18 @@ body{
 		flex:1 auto;
 		-webkit-order:1;
 		order:1;
-		background-image: url('/images/inicio/planes iz.jpg');
+		background-image: url('/images/inicio/planes_izq.jpg');
 		background-repeat: no-repeat;
 		background-size: 100% 100%;
-		background-color: red;
 		height: 401px;
 	}
+	
     .imgDerPlanes {
 		-webkit-flex:5 0px;
 		flex:5 0px;
 		-webkit-order:2;
 		order:2;
-		background-image: url('/images/inicio/planes der.jpg');
+		background-image: url('/images/inicio/planes_der.jpg');
 		background-repeat: no-repeat;
 		background-size: 100% 100%;
 		text-align:left;
@@ -182,6 +212,7 @@ body{
 		background-position: center center;
 		height: 201px;
 	}
+	
 	.imgIzqQuienes {
 		-webkit-flex: 1 auto;
 		flex:1 auto;
@@ -204,6 +235,7 @@ body{
 		background-position: center center;
 		height: 412px;
 	}
+	
     .imgDerQuienes {
 		-webkit-flex:5 0px;
 		flex:5 0px;
@@ -223,10 +255,54 @@ body{
 		order:1;
 		background-image: url('/images/inicio/quienes_somos_txt_der.png');
 		background-repeat: no-repeat;
-		/*background-size: contain;*/
-		background-position: left bottom;
+		background-size: 100% 100%;
 		height: 412px;
 	}
-		
+	
+	.imgArrColocacion {
+		-webkit-flex:5 0px;
+		flex:5 0px;
+		-webkit-order:2;
+		order:2;
+		background-image: url('/images/inicio/colocacion_arr.jpg');
+		background-repeat: no-repeat;
+		background-size: 100% 100%;
+		width: 100%;
+		height: 348px;
+	}
+	.imgArrColocacionTxt
+	{
+		-webkit-flex: 1 auto;
+		flex:1 auto;
+		-webkit-order:1;
+		order:1;
+		background-image: url('/images/inicio/colocacion_txt_arr.png');
+		background-repeat: no-repeat;
+		background-size: 100% 100%;
+		height: 348px;
+	}
+
+	.imgAbjColocacion {
+		-webkit-flex:5 0px;
+		flex:5 0px;
+		-webkit-order:2;
+		order:2;
+		background-image: url('/images/inicio/colocacion_abj.jpg');
+		background-repeat: no-repeat;
+		background-size: 100% 100%;
+		width: 100%;
+		height: 537px;
+	}
+	.imgAbjColocacionTxt
+	{
+		-webkit-flex: 1 auto;
+		flex:1 auto;
+		-webkit-order:1;
+		order:1;
+		background-image: url('/images/inicio/colocacion_txt_abj.png');
+		background-repeat: no-repeat;
+		background-size: 100% 100%;
+		height: 537px;
+	}		
 
 }

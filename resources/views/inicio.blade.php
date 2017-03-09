@@ -71,7 +71,6 @@
 	</div>
 	
 	<!--Quienes Somos-->
-	
 	<div class="flex-container">
 		<div class="imgIzqQuienes">
 			<div class="imgIzqQuienesTxt">
@@ -80,6 +79,22 @@
 		
 		<div class="imgDerQuienes">
 			<div class="imgDerQuienesTxt">
+			</div>	
+		</div>
+	</div>
+	
+	<!--Colocacion arriba-->
+	<div class="flex-container">
+		<div class="imgArrColocacion">
+			<div class="imgArrColocacionTxt">
+			</div>	
+		</div>
+	</div>
+	
+	<!--Colocacion abajo-->
+	<div class="flex-container">
+		<div class="imgAbjColocacion">
+			<div class="imgAbjColocacionTxt">
 			</div>	
 		</div>
 	</div>
