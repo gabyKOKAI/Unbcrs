@@ -156,6 +156,7 @@ body{
 		background-image: url('/images/inicio/planes iz.jpg');
 		background-repeat: no-repeat;
 		background-size: 100% 100%;
+		background-color: red;
 		height: 401px;
 	}
     .imgDerPlanes {
