@@ -9,6 +9,7 @@
 		<div class="imgRecursos">
 			<div class="titEmpresas">
 				<div class="imgRecursosTxt">
+				hola
 				</div>
 			</div>	
 		</div>
