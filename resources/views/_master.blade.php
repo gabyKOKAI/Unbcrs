@@ -64,7 +64,7 @@
 		</div>
 		
 		<div class="footer">
-			<p>Copyright (c) 2008 probando</p>
+			<p>Copyright (c) 2008 probandosegundointento</p>
 		</div>
 		
 			<!-- Bootstrap jQuery -->
