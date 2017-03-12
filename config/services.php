@@ -30,7 +30,7 @@ return [
     ],
 
     'stripe' => [
-        'model' => Unbcrs\User::class,
+        'model' => unbcrs\User::class,
         'key' => env('STRIPE_KEY'),
         'secret' => env('STRIPE_SECRET'),
     ],

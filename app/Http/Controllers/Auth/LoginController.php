@@ -1,8 +1,8 @@
 <?php
 
-namespace Unbcrs\Http\Controllers\Auth;
+namespace unbcrs\Http\Controllers\Auth;
 
-use Unbcrs\Http\Controllers\Controller;
+use unbcrs\Http\Controllers\Controller;
 use Illuminate\Foundation\Auth\AuthenticatesUsers;
 
 class LoginController extends Controller

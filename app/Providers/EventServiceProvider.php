@@ -1,6 +1,6 @@
 <?php
 
-namespace Unbcrs\Providers;
+namespace unbcrs\Providers;
 
 use Illuminate\Support\Facades\Event;
 use Illuminate\Foundation\Support\Providers\EventServiceProvider as ServiceProvider;
@@ -13,8 +13,8 @@ class EventServiceProvider extends ServiceProvider
      * @var array
      */
     protected $listen = [
-        'Unbcrs\Events\SomeEvent' => [
-            'Unbcrs\Listeners\EventListener',
+        'unbcrs\Events\SomeEvent' => [
+            'unbcrs\Listeners\EventListener',
         ],
     ];
 

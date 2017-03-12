@@ -1,6 +1,6 @@
 <?php
 
-namespace Unbcrs\Providers;
+namespace unbcrs\Providers;
 
 use Illuminate\Support\ServiceProvider;
 use Illuminate\Support\Facades\Broadcast;

@@ -1,9 +1,9 @@
 <?php
 
-namespace Unbcrs\Http\Controllers\Auth;
+namespace unbcrs\Http\Controllers\Auth;
 
-use Unbcrs\User;
-use Unbcrs\Http\Controllers\Controller;
+use unbcrs\User;
+use unbcrs\Http\Controllers\Controller;
 use Illuminate\Support\Facades\Validator;
 use Illuminate\Foundation\Auth\RegistersUsers;
 

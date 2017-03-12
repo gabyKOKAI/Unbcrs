@@ -67,7 +67,7 @@ return [
     'providers' => [
         'users' => [
             'driver' => 'eloquent',
-            'model' => Unbcrs\User::class,
+            'model' => unbcrs\User::class,
         ],
 
         // 'users' => [
