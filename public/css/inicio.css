@@ -89,11 +89,11 @@
 	height: 175px;
 }
 .imgCubo{
-	/*background-image: url('/images/inicio/cubo_estudiantes.png'), url('/images/inicio/cubo_unversidades.png');
-	*/
-	background-repeat: no-repeat;
-	background-size: 100% 100%;	
-	width: 149px;
+	height: 133px;
+	width:100%;
+}	
+
+.imgCubo1{
 	height: 133px;
 }
 
@@ -231,16 +231,8 @@
 		flex:1 auto;
 		-webkit-order:1;
 		order:1;
-		/*background-image: url('/images/inicio/cubo_estudiantes.png');
-		background-size: 100% 100%;
-		background-image: url('/images/inicio/colocacion_txt_abj.png');
-		background-repeat: no-repeat;
-		background-size: 100% 100%;*/
-		border: 1px solid #C00;
-		background-position: right;
 		height: 266px;
 		width:100%;
-		align:right;
 	}	
 	
 	.imgProgramas{
