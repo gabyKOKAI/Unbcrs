@@ -1,6 +1,6 @@
 <?php 
 
-namespace Unbcrs\Http\Controllers;
+namespace unbcrs\Http\Controllers;
 
 class EmpresasController extends Controller {
 

@@ -20,7 +20,7 @@
             "database"
         ],
         "psr-4": {
-            "Unbcrs\\": "app/"
+            "unbcrs\\": "app/"
         }
     },
     "autoload-dev": {
