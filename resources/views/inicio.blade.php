@@ -55,7 +55,8 @@
 
 @extends('_master')
 
-<link rel="stylesheet" href="{{URL::asset('/css/inicio.css')}}" type="text/css"> 
+<link rel="stylesheet" href="{{URL::asset('/css/inicio.css')}}" type="text/css">
+<script type="text/javascript" src="{{URL::asset('js/inicio.js') }}"></script>
 
 @section ('content')
 	
@@ -97,7 +98,11 @@
 	<div class="flex-container">
 		<div class="imgAbjColocacion">
 			<div class="imgAbjColocacionTxt">
-				<div class="imgAbjColocacionCubo">
+				<div class="imgCubo">
+				
+				<img class="imgCubo1" id="imgCubo" alt="cubo" src="" align= right;/> 
+				<!--height="400px" width="600px" border="5" style="border-color:white;"
+				src="{{URL::asset('/images/inicio/cubo_empresas.png')}}"/-->
 				</div>
 			</div>	
 		</div>

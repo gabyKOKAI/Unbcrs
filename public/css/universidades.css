@@ -27,30 +27,22 @@
 	height: 359px;
 }
 .imgRegUniversidades{
-	-webkit-flex:5 0px;
-	flex:5 0px;
-	-webkit-order:2;
-	order:2;
 	background-image: url('/images/universidades/Universidades_bkg_02.jpg');
 	background-repeat: no-repeat;
 	background-size: 100% 100%;
 	/*background-size: contain;*/
 	width: 100%;
 	height: 222px;
-	}
+}
 .imgRegUniversidadesTxt{
-	-webkit-flex: 1 auto;
-	flex:1 auto;
-	-webkit-order:1;
-	order:1;
-		background-image: url('/images/universidades/txtRegistro.png');
-		background-repeat: no-repeat;
-		/*background-size: 100% 100%;*/
-		background-size: contain;
-		background-position: top center;
-		width: 100%;
-		height: 77px;
-	}
+	background-image: url('/images/universidades/txtRegistro.png');
+	background-repeat: no-repeat;
+	/*background-size: 100% 100%;*/
+	background-size: contain;
+	background-position: top center;
+	width: 100%;
+	height: 77px;
+}
 .imgBotRegUniv{
 	-webkit-flex: 1 auto;
 	flex:1 auto;
@@ -72,7 +64,7 @@
 		/*background-size: contain;*/
 		width: 100%;
 		height: 1142px;
-		}
+	}
 	.imgBeneficiosUniv{
 		-webkit-flex: 1 auto;
 		flex:1 auto;
@@ -96,7 +88,7 @@
 		/*background-size: contain;*/
 		width: 100%;
 		height: 444px;
-		}
+	}
 	.imgRegUniversidadesTxt{
 		-webkit-flex: 1 auto;
 		flex:1 auto;
@@ -109,7 +101,7 @@
 		background-position: top center;
 		width: 100%;
 		height: 155px;
-		}
+	}
 	.imgBotRegUniv{
 		-webkit-flex: 1 auto;
 		flex:1 auto;
