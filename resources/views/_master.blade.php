@@ -64,7 +64,7 @@
 		</div>
 		
 		<div class="footer">
-			<p>Copyright (c) 2008 Ana es lo maximo </p>
+			<p>Copyright (c) 2008 Ana es lo maximo probando </p>
 		</div>
 		
 			<!-- Bootstrap jQuery -->
