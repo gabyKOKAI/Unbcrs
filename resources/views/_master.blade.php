@@ -23,15 +23,18 @@
 			<div class="row">
 			
 				<!--Logo-->
-				<div class= "col-md-10">
-					<a href='/' ><img src= "{{URL::asset('/images/logo.png')}}" alt="Unibecarios Logo"/></a>
+				<div class= "col-md-3">
+					<a href='/' ><img src= "{{URL::asset('/images/logo.png')}}" alt="Unibecarios Logo" class="img-responsive center-block"/></a>
+				</div>
+
+				<div class="col-md-7">
 				</div>
 				
 				<!--Redes sociales: falta poner padding-->
 				<div class= "col-md-2" id="social">
-					<a href='/'><img src= "{{URL::asset('/images/fb1.png')}}" alt="Unibecarios Facebook"/></a>
-					<a href='/'><img src= "{{URL::asset('/images/linkedin.png')}}" alt="Unibecarios Linkedin"/></a>
-					<a href='/'><img src= "{{URL::asset('/images/twitter.png')}}" alt="Unibecarios Twitter"/></a>
+					<a href='/'><img src= "{{URL::asset('/images/logoFB.png')}}" alt="Unibecarios Facebook"/></a>
+					<a href='/'><img src= "{{URL::asset('/images/logoIns.png')}}" alt="Unibecarios Linkedin" /></a>
+					<a href='/'><img src= "{{URL::asset('/images/logoTwitter.png')}}" alt="Unibecarios Twitter"/></a>
 				</div>
 			</div>
 			
