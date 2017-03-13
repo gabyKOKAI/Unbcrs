@@ -79,6 +79,38 @@ body{
 }
 */
 
+#social{
+	padding-top: 1%;
+}
+
+.navbar{
+	margin-bottom: 0px;
+}
+
+.navbar-default {
+	border-color: white;
+	background-color: white;	
+}
+
+.navbar-default .navbar-nav>li>a{
+	color:#375D9D;
+	font-weight: bold;
+}
+
+.navbar-default .navbar-nav>li>a:focus, .navbar-default .navbar-nav>li>a:hover {
+	color:#375D9D;
+	font-weight: bold;
+	text-decoration: underline;
+}
+
+.navbar #nav > .active > a {
+    color: red;
+}
+
+footer{
+  
+}
+
 footer .container {
   margin-top: 2.5%;
   background-color: #375D9D;
@@ -103,13 +135,16 @@ footer ul{
 	text-align: center;
 	color: white;
 	font-size: 80%;
+	font-family: ArialIMT, arial;
 }
 
 footer a{
 	color:white;
+	font-family: ArialIMT, arial;
 }
 
 footer a:focus, a:hover{
 	color:white;
 	font-weight: bold;	
 }
+
