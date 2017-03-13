@@ -64,7 +64,7 @@
 		</div>
 		
 		<div class="footer">
-			<p>Copyright (c) 2008 </p>
+			<img src= "{{URL::asset('/images/logoSoloFooter.png')}}" alt="Unibecarios Facebook"/>
 		</div>
 		
 			<!-- Bootstrap jQuery -->
