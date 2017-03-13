@@ -51,7 +51,7 @@
 								<li id="navpart1"><a href='/somos'>QUIENES SOMOS </a></li>
 								<li id="navpart2"><a href='/empresas'>EMPRESAS</a></li>
 								<li id="navpart3"><a href='/estudiantes'>ESTUDIANTES</a></li>
-								<li id="navpart4"><a href='/becarios'>BECARIOS</a></li>
+								<!--li id="navpart4"><a href='/becarios'>BECARIOS</a></li-->
 								<li id="navpart5"><a href='/universidades'>UNIVERSIDADES</a></li>
 								<li id="navpart5"><a href='/blog'>BLOG</a></li>
 							</ul>
@@ -64,7 +64,7 @@
 		</div>
 		
 		<div class="footer">
-			<p>Copyright (c) 2008 probandosegundointento</p>
+			<p>Copyright (c) 2008 Ana es lo maximo probando de nuevo  2</p>
 		</div>
 		
 			<!-- Bootstrap jQuery -->

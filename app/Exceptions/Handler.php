@@ -1,6 +1,6 @@
 <?php
 
-namespace Unbcrs\Exceptions;
+namespace unbcrs\Exceptions;
 
 use Exception;
 use Illuminate\Auth\AuthenticationException;

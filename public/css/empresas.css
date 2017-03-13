@@ -12,7 +12,7 @@
 }
 
 .imgRecursos{
-	background-image: url('/images/empresas/Empresas_bkg_02.jpg');
+	background-image: url('/images/empresas/Empresas_bkg_02b.jpg');
 	background-repeat: no-repeat;
 	background-size: 100% 100%;
 	/*background-size: contain;*/
@@ -24,7 +24,8 @@
     background-repeat: no-repeat;
 	background-size: contain;
 	background-position: top center;
-	height: 30px;
+	/*height: 30px;*/
+	height: 0px;
 }
 .imgRecursosTxt{
 	background-image: url('/images/empresas/Empresas_txt_02.png');
@@ -33,10 +34,10 @@
 	/*background-size: contain;*/
 	background-position: top center;
 	height: 228px;
-	}
+}
 
 .imgCompromiso{
-	background-image: url('/images/empresas/Empresas_bkg_03.jpg');
+	background-image: url('/images/empresas/Empresas_bkg_03.png');
 	background-repeat: no-repeat;
 	background-size: 100% 100%;
 	/*background-size: contain;*/
@@ -44,13 +45,39 @@
 	height: 280px;
 }
 .imgCompromisoTxt{
-	background-image: url('/images/empresas/Empresas_txt_03.png');
+	background-image: url('/images/empresas/Empresas_txt_03b.png');
 	background-repeat: no-repeat;
 	background-size: 100% 100%;
 	/*background-size: contain;*/
 	background-position: center center;
 	height: 280px;
-	}
+}
+.divBotRegEmpr{
+	height: 165px;
+}
+.imgBotRegEmpr{
+	height: 50px;
+}
+	
+.imgAhorreTiempo{
+	background-image: url('/images/empresas/Empresas_bkg_04.png');
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	/*background-size: contain;*/
+	background-position: center center;
+	height: 226px;
+}
+.imgAhorreTiempoTxt{
+	background-image: url('/images/empresas/Empresas_txt_04b.png');
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	/*background-size: contain;*/
+	background-position: center center;
+	height: 150px;
+}
+.div2BotRegEmpr{
+	height: 160px;
+}	
 	
 /*ESTO ES PARA GRANDE*/
 @media all and (min-width: 768px){
@@ -59,7 +86,7 @@
 		flex:5 0px;
 		-webkit-order:2;
 		order:2;
-		background-image: url('/images/empresas/Empresas_bkg_02.jpg');
+		background-image: url('/images/empresas/Empresas_bkg_02b.jpg');
 		background-repeat: no-repeat;
 		background-size: 100% 100%;
 		/*background-size: contain;*/
@@ -75,7 +102,8 @@
 		background-repeat: no-repeat;
 		background-size: 100% 100%;
 		width: 100%;
-		height: 54px;
+		/*height: 54px;*/
+		height: 0px;
 	}
 	.imgRecursosTxt{
 		-webkit-flex: 1 auto;
@@ -95,7 +123,7 @@
 		flex:5 0px;
 		-webkit-order:2;
 		order:2;
-		background-image: url('/images/empresas/Empresas_bkg_03.jpg');
+		background-image: url('/images/empresas/Empresas_bkg_03.png');
 		background-repeat: no-repeat;
 		background-size: 100% 100%;
 		/*background-size: contain;*/
@@ -107,11 +135,57 @@
 		flex:1 auto;
 		-webkit-order:1;
 		order:1;
-		background-image: url('/images/empresas/Empresas_txt_03.png');
+		background-image: url('/images/empresas/Empresas_txt_03b.png');
 		background-repeat: no-repeat;
 		background-size: 100% 100%;
 		/*background-size: contain;*/
 		background-position: center center;
 		height: 835px;
+	}
+	.divBotRegEmpr{
+		-webkit-flex: 1 auto;
+		flex:1 auto;
+		-webkit-order:1;
+		order:1;
+		height: 480px;
+	}
+	.imgBotRegEmpr{
+		-webkit-flex: 1 auto;
+		flex:1 auto;
+		-webkit-order:1;
+		order:1;
+		height: 130px;
+	}
+	
+	.imgAhorreTiempo{
+		-webkit-flex:5 0px;
+		flex:5 0px;
+		-webkit-order:2;
+		order:2;
+		background-image: url('/images/empresas/Empresas_bkg_04.png');
+		background-repeat: no-repeat;
+		background-size: 100% 100%;
+		/*background-size: contain;*/
+		background-position: center center;
+		height: 452px;
+		}
+	.imgAhorreTiempoTxt{
+		-webkit-flex: 1 auto;
+		flex:1 auto;
+		-webkit-order:1;
+		order:1;
+		background-image: url('/images/empresas/Empresas_txt_04b.png');
+		background-repeat: no-repeat;
+		background-size: 100% 100%;
+		/*background-size: contain;*/
+		background-position: center center;
+		height: 300px;
+	}
+	.div2BotRegEmpr{
+		-webkit-flex: 1 auto;
+		flex:1 auto;
+		-webkit-order:1;
+		order:1;
+		height: 320px;
 	}
 }

@@ -41,3 +41,16 @@ Route::get('/practice1', function() {
 Route::get('/', 'InicioController@pagInicio');
 Route::get('/somos', 'InicioController@pagInicio');
 Route::get('/empresas', 'EmpresasController@pagEmpresas');
+Route::get('/estudiantes', 'EstudiantesController@pagEstudiantes');
+Route::get('/becarios', 'BecariosController@pagBecarios');
+Route::get('/universidades', 'UniversidadesController@pagUniversidades');
+Route::get('/blog', 'BlogController@pagBlog');
+Route::get('/avisoPrivacidad', 'AvisoPrivacidadController@pagAvisoPrivacidad');
+
+
+
+
+
+
+
+
