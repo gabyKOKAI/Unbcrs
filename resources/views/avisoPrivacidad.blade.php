@@ -1,34 +1,20 @@
 @extends('_master')
 
-<link rel="stylesheet" href="{{URL::asset('/css/empresas.css')}}" type="text/css"> 
+<link rel="stylesheet" href="{{URL::asset('/css/avisoPrivacidad.css')}}" type="text/css"> 
 
 @section ('content')
 	
-	<!--Recursos Economicos-->
-	<div class="flex-container">	
-		<div class="imgRecursos">
-			<div class="titEmpresas">
-				<div class="imgRecursosTxt">
-				</div>
-			</div>	
-		</div>
+<div class="flex-container">	
+	<h1 class="titterminos">TÉRMINOS DE PRIVACIDAD</h1>
+	<div class="terminos">
+		<p> El programa <b>UniBecarios</b> es una marca de la <b>Fundación Fomentando Talentos para México A.C.</b>, el cual ofrece sólamente la vinculación entre las empresas afiliadas y los postulantes registrados
+		en el mismo </p>
+		<p>Todos los estudiantes registrados en el programa <b>UniBecarios</b> son sometidos a un proceso de selección entre el programa y las empresas, de modo que UniBecarios no asegura ni se compromete a que
+		todos los estudiantes serán invitados a colaborar con las empresas para las que aplican</p>
 	</div>
-	
-	<!--Compromiso Sociedad-->
-	<div class="flex-container">	
-		<div class="imgCompromiso">
-			<div class="imgCompromisoTxt">
-			</div>	
-		</div>
-	</div>
-	
-	<!--Ahorre Tiempo-->
-	<div class="flex-container">	
-		<div class="imgAhorreTiempo">
-			<div class="imgAhorreTiempoTxt">
-			</div>	
-		</div>
-	</div>
-	
+	<div class="logoterminos">
+		<img src= "{{URL::asset('/images/privacidad/logotipo.png')}}" alt="Planes y Programas para el futuro" class="img-responsive center-block"/>
+</div>	
+
 @stop
 
