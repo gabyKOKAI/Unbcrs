@@ -79,7 +79,37 @@ body{
 }
 */
 
-.footer{
-	background-color: #4672AD;
+footer .container {
+  margin-top: 2.5%;
+  background-color: #375D9D;
+  padding-top: 1%;
+  padding-bottom: 1%;
 }
 
+footer .col-md-3{
+	text-align: center;
+}
+
+footer .list-inline>li {
+    margin-right: -10px;
+    color: white;
+}
+
+footer ul{
+	text-align: center;
+}
+
+.copyright{
+	text-align: center;
+	color: white;
+	font-size: 80%;
+}
+
+footer a{
+	color:white;
+}
+
+footer a:focus, a:hover{
+	color:white;
+	font-weight: bold;	
+}
