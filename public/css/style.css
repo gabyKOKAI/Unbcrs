@@ -79,6 +79,15 @@ body{
 }
 */
 
+/*Centrar redes sociales en mobil
+@media (max-width: 768px) {
+
+	#social{
+		text-align: center;
+	}
+}
+*/
+
 #social{
 	padding-top: 1%;
 }
@@ -107,9 +116,6 @@ body{
     color: red;
 }
 
-footer{
-  
-}
 
 footer .container {
   margin-top: 2.5%;

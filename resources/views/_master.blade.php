@@ -23,7 +23,7 @@
 			<div class="row">
 			
 				<!--Logo-->
-				<div class= "col-md-3">
+				<div class= "col-md-3" id="logo">
 					<a href='/' ><img src= "{{URL::asset('/images/logo.png')}}" alt="Unibecarios Logo" class="img-responsive center-block"/></a>
 				</div>
 
@@ -31,7 +31,7 @@
 				</div>
 				
 				<!--Redes sociales: falta poner padding-->
-				<div class= "col-md-2" id="social">
+				<div class= "col-md-2	" id="social">
 					<a href='/'><img src= "{{URL::asset('/images/logoFB.png')}}" alt="Unibecarios Facebook"/></a>
 					<a href='/'><img src= "{{URL::asset('/images/logoIns.png')}}" alt="Unibecarios Linkedin" /></a>
 					<a href='/'><img src= "{{URL::asset('/images/logoTwitter.png')}}" alt="Unibecarios Twitter"/></a>
@@ -83,7 +83,7 @@
 						<li><a href='/'>REGISTRO DE UNIVERSIDADES | </a></li>
 						<!--<li><a href='/'>TIPS PARA BECARIOS | </a></li>-->
 						<li><a href='/blog'>BLOG | </a></li>
-						<li><a href='/'>TÉRMINOS DE PRIVACIDAD | </a></li>
+						<li><a href='/avisoPrivacidad'>TÉRMINOS DE PRIVACIDAD | </a></li>
 						<li><a href='/'>CONTÁCTANOS </a></li>	
 					</ul>
 				</div>
