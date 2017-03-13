@@ -47,7 +47,7 @@
 							</button>
 						</div>
 						<div class="collapse navbar-collapse">
-							<ul class="nav navbar-nav navbar-right">
+							<ul class="nav navbar-nav navbar-right" id="">
 								<li id="navpart1"><a href='/somos'>QUIENES SOMOS </a></li>
 								<li id="navpart2"><a href='/empresas'>EMPRESAS</a></li>
 								<li id="navpart3"><a href='/estudiantes'>ESTUDIANTES</a></li>
@@ -78,9 +78,9 @@
 						<li><a href='/'>REGISTRO DE EMPRESAS | </a></li>
 						<li><a href='/'>REGISTRO DE ESTUDIANTES | </a></li>
 						<li><a href='/'>REGISTRO DE UNIVERSIDADES | </a></li>
-						<li><a href='/'>TIPS PARA BECARIOS | </a></li>
+						<!--<li><a href='/'>TIPS PARA BECARIOS | </a></li>-->
 						<li><a href='/blog'>BLOG | </a></li>
-						<li><a href='/'>TÉRMINOS DE PRIVACIDAD| </a></li>
+						<li><a href='/'>TÉRMINOS DE PRIVACIDAD | </a></li>
 						<li><a href='/'>CONTÁCTANOS </a></li>	
 					</ul>
 				</div>
