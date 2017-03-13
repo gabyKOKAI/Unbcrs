@@ -98,6 +98,8 @@
 	<div class="flex-container">
 		<div class="imgAbjColocacion">
 			<div class="imgAbjColocacionTxt">
+			<div class="spaceCubo">
+			</div>
 				<div class="imgCubo">
 				
 				<img class="imgCubo1" id="imgCubo" alt="cubo" src="" align="right"/> 
