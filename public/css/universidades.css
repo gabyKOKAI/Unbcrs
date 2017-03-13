@@ -12,7 +12,7 @@
 }
 
 .imgUniversidades{
-	background-image: url('/images/universidades/Universidades_bkg_01b.jpg');
+	background-image: url('/images/universidades/Universidades_bkg_01c.png');
 	background-repeat: no-repeat;
 	background-size: 100% 100%;
 	/*background-size: contain;*/
@@ -58,7 +58,7 @@
 		flex:5 0px;
 		-webkit-order:2;
 		order:2;
-		background-image: url('/images/universidades/Universidades_bkg_01b.jpg');
+		background-image: url('/images/universidades/Universidades_bkg_01c.png');
 		background-repeat: no-repeat;
 		background-size: 100% 100%;
 		/*background-size: contain;*/
