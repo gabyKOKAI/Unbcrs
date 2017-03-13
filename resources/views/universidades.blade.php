@@ -15,15 +15,15 @@
 	<div class="flex-container">	
 		<div class="imgRegUniversidades">
 		<div class="imgRegUniversidadesTxt">
-		<div class="imgBotRegUniv">
-		</div>
+			<div class="imgBotRegUniv">
+			</div>
 			<a href="https://www.w3schools.com/html/">
-					 <img class="imgBotRegUniv"
-			src="{{URL::asset('/images/universidades/btnRegistroUniv.png')}}"
-			onmouseover="this.src='{{URL::asset('/images/universidades/btnRegistroUnivUnd.png')}}';"
-			onmouseout="this.src='{{URL::asset('/images/universidades/btnRegistroUniv.png')}}';"
-			alt="REGISTRO DE UNIVERSIDADES"
-			/>
+				<img class="imgBotRegUniv"
+				src="{{URL::asset('/images/universidades/btnRegistroUniv.png')}}"
+				onmouseover="this.src='{{URL::asset('/images/universidades/btnRegistroUnivUnd.png')}}';"
+				onmouseout="this.src='{{URL::asset('/images/universidades/btnRegistroUniv.png')}}';"
+				alt="REGISTRO DE UNIVERSIDADES"
+				/>
 			</a>
 		</div>
 		
