@@ -79,6 +79,10 @@ body{
 }
 */
 
+#social{
+	padding-top: 1%;
+}
+
 .navbar{
 	margin-bottom: 0px;
 }
@@ -93,10 +97,14 @@ body{
 	font-weight: bold;
 }
 
-.navbar-default .navbar-nav li a:focus, a:hover {
+.navbar-default .navbar-nav>li>a:focus, .navbar-default .navbar-nav>li>a:hover {
 	color:#375D9D;
 	font-weight: bold;
 	text-decoration: underline;
+}
+
+.navbar #nav > .active > a {
+    color: red;
 }
 
 footer{
