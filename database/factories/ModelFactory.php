@@ -12,7 +12,7 @@
 */
 
 /** @var \Illuminate\Database\Eloquent\Factory $factory */
-$factory->define(unbcrs\User::class, function (Faker\Generator $faker) {
+$factory->define(Unbcrs\User::class, function (Faker\Generator $faker) {
     static $password;
 
     return [

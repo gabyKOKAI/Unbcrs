@@ -1,6 +1,6 @@
 <?php
 
-namespace unbcrs\Providers;
+namespace Unbcrs\Providers;
 
 use Illuminate\Support\Facades\Gate;
 use Illuminate\Foundation\Support\Providers\AuthServiceProvider as ServiceProvider;
@@ -13,7 +13,7 @@ class AuthServiceProvider extends ServiceProvider
      * @var array
      */
     protected $policies = [
-        'unbcrs\Model' => 'unbcrs\Policies\ModelPolicy',
+        'Unbcrs\Model' => 'Unbcrs\Policies\ModelPolicy',
     ];
 
     /**

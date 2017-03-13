@@ -1,6 +1,6 @@
 <?php
 
-namespace unbcrs\Http\Middleware;
+namespace Unbcrs\Http\Middleware;
 
 use Closure;
 use Illuminate\Support\Facades\Auth;
