@@ -63,9 +63,32 @@
 			
 		</div>
 		
-		<div class="footer">
-			<img src= "{{URL::asset('/images/logoSoloFooter.png')}}" alt="Unibecarios Facebook"/>
-		</div>
+		<footer class="footer">
+			<div class="container">
+				<div class= "col-md-3">
+					<img src= "{{URL::asset('/images/logoSoloFooter.png')}}" alt="Unibecarios Footer" class="img-responsive center-block"/>
+				</div>
+				<div class= "col-md-9">
+				</br>
+					<ul class="list-inline">
+						<li><a href='/somos'>QUIENES SOMOS |</a></li>
+						<li><a href='/empresas'>EMPRESAS | </a></li>
+						<li><a href='/estudiantes'>ESTUDIANTES | </a></li>
+						<li><a href='/universidades'>UNIVERSIDADES | </a></li>
+						<li><a href='/'>REGISTRO DE EMPRESAS | </a></li>
+						<li><a href='/'>REGISTRO DE ESTUDIANTES | </a></li>
+						<li><a href='/'>REGISTRO DE UNIVERSIDADES | </a></li>
+						<li><a href='/'>TIPS PARA BECARIOS | </a></li>
+						<li><a href='/blog'>BLOG | </a></li>
+						<li><a href='/'>TÉRMINOS DE PRIVACIDAD| </a></li>
+						<li><a href='/'>CONTÁCTANOS </a></li>	
+					</ul>
+				</div>
+				<div class="copyright">
+					<p>UNIBECARIOS 2017 &copy; TODOS LOS DERECHOS RESERVADOS</p>
+				</div>			
+			</div>
+		</footer>
 		
 			<!-- Bootstrap jQuery -->
 			<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
