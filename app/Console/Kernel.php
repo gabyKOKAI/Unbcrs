@@ -1,6 +1,6 @@
 <?php
 
-namespace unbcrs\Console;
+namespace Unbcrs\Console;
 
 use Illuminate\Console\Scheduling\Schedule;
 use Illuminate\Foundation\Console\Kernel as ConsoleKernel;
