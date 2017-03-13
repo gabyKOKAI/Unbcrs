@@ -88,13 +88,16 @@
 	background-size: 100% 100%;
 	height: 175px;
 }
-.imgCubo{
-	height: 133px;
+.spaceCubo{
+	height: 55px;
 	width:100%;
 }	
-
+.imgCubo{
+	height: 99px;
+	width: 100%;
+}	
 .imgCubo1{
-	height: 133px;
+	height: 88px;
 }
 
 .imgProgramas{
@@ -226,7 +229,15 @@
 		background-size: 100% 100%;
 		height: 350px;
 	}
-	.imgCubo{
+	.spacecCubo{		
+		-webkit-flex: 1 auto;
+		flex:1 auto;
+		-webkit-order:1;
+		order:1;
+		height: 133px;
+		width:100%;
+	}
+	.imgCubo{		
 		-webkit-flex: 1 auto;
 		flex:1 auto;
 		-webkit-order:1;
@@ -234,6 +245,14 @@
 		height: 266px;
 		width:100%;
 	}	
+	
+	.imgCubo1{
+		-webkit-flex: 1 auto;
+		flex:1 auto;
+		-webkit-order:1;
+		order:1;
+		height: 233px;
+	}
 	
 	.imgProgramas{
 	background-image: url('/images/inicio/programas_arr.png');
