@@ -1,29 +1,57 @@
-.flex-container{
-    display: -webkit-flex;
-    display: flex;  
-    -webkit-flex-flow: row wrap;
-    flex-flow: row wrap;
+.containerAviso{
     text-align: center;
     background-color: #F3E1B1;
+	background-position: center center;
     padding-left: 15%;
     padding-right: 15%;
-}
-.flex-container > * {
-    /*padding: 15px;*/
-    -webkit-flex: 1 100%;
-    flex: 1 100%;
 }
 
 .titterminos{
 	padding-top: 3%;
+	font-size: 80%;
+	font-size: 15px;
 }
 
 .terminos{
 	padding-top:5%;
 	padding-bottom: 1%;
+	font-size: 80%;
 }
 
 .logoterminos{
-	padding-bottom: 3%;
+	/*padding-bottom: 3%;*/
+	background-image: url('/images/privacidad/logotipo.png');
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-position: center center;
+	height: 0px;
+}
+
+/*ESTO ES PARA GRANDE*/
+@media all and (min-width: 768px){
+	.titterminos{
+		padding-top: 3%;
+		/*
+		font-size: 100%;
+		border: 1px solid #C00;
+		*/
+		font-size: 25px;	
+	}
+
+	.terminos{
+		padding-top:5%;
+		padding-bottom: 1%;
+		font-size: 18px;
+	}
+
+	.logoterminos{
+		padding-bottom: 3%;
+		background-image: url('/images/privacidad/logotipo.png');
+		background-repeat: no-repeat;
+		background-size: contain;
+		background-position: center center;
+		height: 105px;
+		/*border: 1px solid #C00;*/
+	}
 }
 

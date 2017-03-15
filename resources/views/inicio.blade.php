@@ -55,10 +55,10 @@
 
 @extends('_master')
 
-<link rel="stylesheet" href="{{URL::asset('/css/inicio.css')}}" type="text/css">
-<script type="text/javascript" src="{{URL::asset('js/inicio.js') }}"></script>
-
 @section ('content')
+
+	<link rel="stylesheet" href="{{URL::asset('/css/inicio.css')}}" type="text/css">
+	<script type="text/javascript" src="{{URL::asset('js/inicio.js') }}"></script>
 	
 	<!--Planes para el futuro-->
 	<div class="flex-container">

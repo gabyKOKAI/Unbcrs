@@ -65,7 +65,8 @@
 	background-size: 100% 100%;
 	/*background-size: contain;*/
 	background-position: center center;
-	height: 226px;
+	width: 100%;
+	height: 279px;
 }
 .imgAhorreTiempoTxt{
 	background-image: url('/images/empresas/Empresas_txt_04b.png');
@@ -73,10 +74,11 @@
 	background-size: 100% 100%;
 	/*background-size: contain;*/
 	background-position: center center;
-	height: 150px;
+	width: 100%;
+	height: 175px;
 }
 .div2BotRegEmpr{
-	height: 160px;
+	height: 210px;
 }	
 	
 /*ESTO ES PARA GRANDE*/
@@ -165,9 +167,12 @@
 		background-image: url('/images/empresas/Empresas_bkg_04.png');
 		background-repeat: no-repeat;
 		background-size: 100% 100%;
-		/*background-size: contain;*/
+		/*background-size: contain;
+		border: 1px solid #C00;*/
 		background-position: center center;
-		height: 452px;
+		width: 100%;
+		height: 558px;
+		
 		}
 	.imgAhorreTiempoTxt{
 		-webkit-flex: 1 auto;
@@ -179,13 +184,14 @@
 		background-size: 100% 100%;
 		/*background-size: contain;*/
 		background-position: center center;
-		height: 300px;
+		width: 100%;
+		height: 350px;
 	}
 	.div2BotRegEmpr{
 		-webkit-flex: 1 auto;
 		flex:1 auto;
 		-webkit-order:1;
 		order:1;
-		height: 320px;
+		height: 400px;
 	}
 }
