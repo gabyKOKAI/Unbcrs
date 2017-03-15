@@ -4,7 +4,7 @@
 
 @section ('content')
 	
-<div class="flex-container">	
+<div class="containerAviso">	
 	<h1 class="titterminos">TÉRMINOS DE PRIVACIDAD</h1>
 	<div class="terminos">
 		<p> El programa <b>UniBecarios</b> es una marca de la <b>Fundación Fomentando Talentos para México A.C.</b>, el cual ofrece sólamente la vinculación entre las empresas afiliadas y los postulantes registrados
@@ -13,8 +13,8 @@
 		todos los estudiantes serán invitados a colaborar con las empresas para las que aplican</p>
 	</div>
 	<div class="logoterminos">
-		<img src= "{{URL::asset('/images/privacidad/logotipo.png')}}" alt="Planes y Programas para el futuro" class="img-responsive center-block"/>
-</div>	
+		<!--img src= "{{URL::asset('/images/privacidad/logotipo.png')}}" alt="Planes y Programas para el futuro" class="img-responsive center-block"/-->
+	</div>	
 
 @stop
 
