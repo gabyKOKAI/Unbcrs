@@ -24,8 +24,13 @@
 			
 				<!--Logo-->
 				<div class= "col-md-3" id="logo">
-					<a href='/' ><img src= "{{URL::asset('/images/logo.png')}}" alt="Unibecarios Logo" class="img-responsive center-block"/></a>
+					<a href='/' >
+					<div class="logoMenu">
+						<!--img src= "{{URL::asset('/images/logo.png')}}" alt="Unibecarios Logo" class="img-responsive center-block"/-->
+					</div>	
+					</a>
 				</div>
+				
 
 				<div class="col-md-7">
 				</div>

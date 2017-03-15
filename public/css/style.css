@@ -87,7 +87,13 @@ body{
 	}
 }
 */
-
+.logoMenu{
+	background-image: url('/images/logo.png');
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-position: center center;
+	height: 50px;
+}
 #social{
 	padding-top: 1%;
 }
