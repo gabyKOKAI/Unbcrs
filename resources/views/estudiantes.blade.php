@@ -1,32 +1,10 @@
-@extends('_master')
-
-<link rel="stylesheet" href="{{URL::asset('/css/empresas.css')}}" type="text/css"> 
+@extends('_master') 
 
 @section ('content')
+	<link rel="stylesheet" href="{{URL::asset('/css/estudiantes.css')}}" type="text/css">
 	
-	<!--Recursos Economicos-->
 	<div class="flex-container">	
-		<div class="imgRecursos">
-			<div class="titEmpresas">
-				<div class="imgRecursosTxt">
-				</div>
-			</div>	
-		</div>
-	</div>
-	
-	<!--Compromiso Sociedad-->
-	<div class="flex-container">	
-		<div class="imgCompromiso">
-			<div class="imgCompromisoTxt">
-			</div>	
-		</div>
-	</div>
-	
-	<!--Ahorre Tiempo-->
-	<div class="flex-container">	
-		<div class="imgAhorreTiempo">
-			<div class="imgAhorreTiempoTxt">
-			</div>	
+		<div class="fondoEstudiantes">
 		</div>
 	</div>
 	
