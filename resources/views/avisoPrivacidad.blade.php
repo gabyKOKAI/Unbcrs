@@ -1,8 +1,7 @@
 @extends('_master')
 
-<link rel="stylesheet" href="{{URL::asset('/css/avisoPrivacidad.css')}}" type="text/css"> 
-
 @section ('content')
+<link rel="stylesheet" href="{{URL::asset('/css/avisoPrivacidad.css')}}" type="text/css"> 
 	
 <div class="containerAviso">	
 	<h1 class="titterminos">TÉRMINOS DE PRIVACIDAD</h1>
@@ -15,6 +14,7 @@
 	<div class="logoterminos">
 		<!--img src= "{{URL::asset('/images/privacidad/logotipo.png')}}" alt="Planes y Programas para el futuro" class="img-responsive center-block"/-->
 	</div>	
+</div>
 
 @stop
 
