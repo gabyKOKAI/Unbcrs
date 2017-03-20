@@ -24,8 +24,13 @@
 			
 				<!--Logo-->
 				<div class= "col-md-3" id="logo">
-					<a href='/' ><img src= "{{URL::asset('/images/logo.png')}}" alt="Unibecarios Logo" class="img-responsive center-block"/></a>
+					<a href='/' >
+					<div class="logoMenu">
+						<!--img src= "{{URL::asset('/images/logo.png')}}" alt="Unibecarios Logo" class="img-responsive center-block"/-->
+					</div>	
+					</a>
 				</div>
+				
 
 				<div class="col-md-7">
 				</div>
@@ -61,26 +66,30 @@
 						</div>
 					</div>
 			</div>
-			
-			<div>
+		
+			<div class="row">
 			
            		@if (session('status'))                
             		<div class="alert alert-success">                  
             			{{ session('status') }}                 
             		</div>
 			  	@endif
+
+			
+				@yield('content')
 			</div>
-			
-			@yield('content')
-			
+      
 		</div>
 		
 		<footer class="footer">
 			<div class="container">
 				<div class= "col-md-3">
-					<img src= "{{URL::asset('/images/logoSoloFooter.png')}}" alt="Unibecarios Footer" class="img-responsive center-block"/>
+					<div class="logoFooter">
+						<!--img src= "{{URL::asset('/images/logoSoloFooter.png')}}" alt="Unibecarios Footer" class="img-responsive center-block"/-->
+					</div>
 				</div>
 				<div class= "col-md-9">
+        
 				</br>
 					<ul class="list-inline">
 						<li><a href='/somos'>QUIENES SOMOS |</a></li>
@@ -95,6 +104,7 @@
 						<li><a href='/avisoPrivacidad'>TÉRMINOS DE PRIVACIDAD | </a></li>
 						<li><a href='/'>CONTÁCTANOS </a></li>	
 					</ul>
+          
 				</div>
 				<div class="copyright">
 					<p>UNIBECARIOS 2017 &copy; TODOS LOS DERECHOS RESERVADOS</p>

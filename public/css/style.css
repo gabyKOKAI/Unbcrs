@@ -87,7 +87,13 @@ body{
 	}
 }
 */
-
+.logoMenu{
+	background-image: url('/images/logo.png');
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-position: center center;
+	height: 50px;
+}
 #social{
 	padding-top: 1%;
 }
@@ -104,11 +110,13 @@ body{
 .navbar-default .navbar-nav>li>a{
 	color:#375D9D;
 	font-weight: bold;
+	font-size: 12px;
 }
 
 .navbar-default .navbar-nav>li>a:focus, .navbar-default .navbar-nav>li>a:hover {
 	color:#375D9D;
 	font-weight: bold;
+	font-size: 12px;
 	text-decoration: underline;
 }
 
@@ -116,9 +124,8 @@ body{
     color: red;
 }
 
-
 footer .container {
-  margin-top: 2.5%;
+  /*margin-top: 2.5%;*/
   background-color: #375D9D;
   padding-top: 1%;
   padding-bottom: 1%;
@@ -128,20 +135,8 @@ footer .col-md-3{
 	text-align: center;
 }
 
-footer .list-inline>li {
-    margin-right: -10px;
-    color: white;
-}
-
 footer ul{
 	text-align: center;
-}
-
-.copyright{
-	text-align: center;
-	color: white;
-	font-size: 80%;
-	font-family: ArialIMT, arial;
 }
 
 footer a{
@@ -153,4 +148,64 @@ footer a:focus, a:hover{
 	color:white;
 	font-weight: bold;	
 }
+
+footer .logoFooter{
+	background-image: url('/images/logoSoloFooter.png');
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-position: center center;
+	height: 50px;
+	/*border: 1px solid #C00;*/
+}
+
+footer .list-inline>li {
+    margin-right: -10px;
+	font-size: 80%;
+    color: white;
+}
+
+.copyright{
+	text-align: center;
+	color: white;
+	font-size: 80%;
+	font-family: ArialIMT, arial;
+}
+
+/*ESTO ES PARA GRANDE*/
+@media all and (min-width: 768px){
+	.navbar-default .navbar-nav>li>a{
+		color:#375D9D;
+		font-weight: bold;
+		font-size: 15px;
+	}
+
+	.navbar-default .navbar-nav>li>a:focus, .navbar-default .navbar-nav>li>a:hover {
+		color:#375D9D;
+		font-weight: bold;
+		font-size: 15px;
+		text-decoration: underline;
+	}
+
+    footer .logoFooter{
+		background-image: url('/images/logoSoloFooter.png');
+		background-repeat: no-repeat;
+		background-size: contain;
+		background-position: center center;
+		/*width: 168px;*/
+		height: 90px;
+		/*border: 1px solid #C00;*/
+		}
+	footer .list-inline>li {
+		margin-right: -10px;
+		font-size: 100%;
+		color: white;
+	}	
+	.copyright{
+		text-align: center;
+		color: white;
+		font-size: 100%;
+		font-family: ArialIMT, arial;
+	}
+}
+
 
