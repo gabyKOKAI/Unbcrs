@@ -62,6 +62,15 @@
 					</div>
 			</div>
 			
+			<div>
+			
+           		@if (session('status'))                
+            		<div class="alert alert-success">                  
+            			{{ session('status') }}                 
+            		</div>
+			  	@endif
+			</div>
+			
 			@yield('content')
 			
 		</div>
@@ -78,9 +87,9 @@
 						<li><a href='/empresas'>EMPRESAS | </a></li>
 						<li><a href='/estudiantes'>ESTUDIANTES | </a></li>
 						<li><a href='/universidades'>UNIVERSIDADES | </a></li>
-						<li><a href='/'>REGISTRO DE EMPRESAS | </a></li>
-						<li><a href='/'>REGISTRO DE ESTUDIANTES | </a></li>
-						<li><a href='/'>REGISTRO DE UNIVERSIDADES | </a></li>
+						<li><a href='/regempresa'>REGISTRO DE EMPRESAS | </a></li>
+						<li><a href='/regunibecario'>REGISTRO DE ESTUDIANTES | </a></li>
+						<li><a href='/reguniversidad'>REGISTRO DE UNIVERSIDADES | </a></li>
 						<!--<li><a href='/'>TIPS PARA BECARIOS | </a></li>-->
 						<li><a href='/blog'>BLOG | </a></li>
 						<li><a href='/avisoPrivacidad'>TÉRMINOS DE PRIVACIDAD | </a></li>

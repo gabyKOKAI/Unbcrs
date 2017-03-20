@@ -35,4 +35,14 @@ class UniversidadesController extends Controller {
 		return view('universidades');
 	}
 
+	/**
+	 * Show the register of universidades.
+	 *
+	 * @return Response
+	 */
+	public function regUniversidades()
+	{
+		return view('reguniversidad');
+	}
+
 }
