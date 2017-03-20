@@ -66,9 +66,19 @@
 						</div>
 					</div>
 			</div>
+		
 			<div class="row">
+			
+           		@if (session('status'))                
+            		<div class="alert alert-success">                  
+            			{{ session('status') }}                 
+            		</div>
+			  	@endif
+
+			
 				@yield('content')
 			</div>
+      
 		</div>
 		
 		<footer class="footer">
@@ -79,20 +89,22 @@
 					</div>
 				</div>
 				<div class= "col-md-9">
-						</br>
-						<ul class="list-inline">
-							<li><a href='/somos'>QUIENES SOMOS |</a></li>
-							<li><a href='/empresas'>EMPRESAS | </a></li>
-							<li><a href='/estudiantes'>ESTUDIANTES | </a></li>
-							<li><a href='/universidades'>UNIVERSIDADES | </a></li>
-							<li><a href='/'>REGISTRO DE EMPRESAS | </a></li>
-							<li><a href='/'>REGISTRO DE ESTUDIANTES | </a></li>
-							<li><a href='/'>REGISTRO DE UNIVERSIDADES | </a></li>
-							<!--<li><a href='/'>TIPS PARA BECARIOS | </a></li>-->
-							<li><a href='/blog'>BLOG | </a></li>
-							<li><a href='/avisoPrivacidad'>TÉRMINOS DE PRIVACIDAD | </a></li>
-							<li><a href='/'>CONTÁCTANOS </a></li>	
-						</ul>
+        
+				</br>
+					<ul class="list-inline">
+						<li><a href='/somos'>QUIENES SOMOS |</a></li>
+						<li><a href='/empresas'>EMPRESAS | </a></li>
+						<li><a href='/estudiantes'>ESTUDIANTES | </a></li>
+						<li><a href='/universidades'>UNIVERSIDADES | </a></li>
+						<li><a href='/regempresa'>REGISTRO DE EMPRESAS | </a></li>
+						<li><a href='/regunibecario'>REGISTRO DE ESTUDIANTES | </a></li>
+						<li><a href='/reguniversidad'>REGISTRO DE UNIVERSIDADES | </a></li>
+						<!--<li><a href='/'>TIPS PARA BECARIOS | </a></li>-->
+						<li><a href='/blog'>BLOG | </a></li>
+						<li><a href='/avisoPrivacidad'>TÉRMINOS DE PRIVACIDAD | </a></li>
+						<li><a href='/'>CONTÁCTANOS </a></li>	
+					</ul>
+          
 				</div>
 				<div class="copyright">
 					<p>UNIBECARIOS 2017 &copy; TODOS LOS DERECHOS RESERVADOS</p>

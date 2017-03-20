@@ -1,0 +1,27 @@
+.registro{
+	background-image: url('/images/registros/RegBecarios.png');
+	color: white;
+}
+
+.forma{
+	text-align: center;
+
+}
+
+input.form-control{
+	width: 50%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+textarea#direccion.form-control {
+	width: 50%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.btn.btn-large.btn-primary.openbutton {
+	background-color: #4673AE;
+	border-color: white;
+	font-size: 200%;
+}

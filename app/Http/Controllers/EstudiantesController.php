@@ -35,4 +35,13 @@ class EstudiantesController extends Controller {
 		return view('estudiantes');
 	}
 
+/**
+	 * Show the register of students.
+	 *
+	 * @return Response
+	 */
+	public function regEstudiantes()
+	{
+		return view('regunibecario');
+	}
 }
