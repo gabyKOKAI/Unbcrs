@@ -35,4 +35,14 @@ class EmpresasController extends Controller {
 		return view('empresas');
 	}
 
+	/**
+	 * Show the register of empresas.
+	 *
+	 * @return Response
+	 */
+	public function regEmpresas()
+	{
+		return view('regempresa');
+	}
+
 }
