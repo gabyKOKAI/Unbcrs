@@ -42,7 +42,7 @@ class EmpresasController extends Controller {
 	 */
 	public function regEmpresas()
 	{
-		return view('regempresa');
+		return view('regEmpresa');
 	}
 
 }

@@ -1,8 +1,7 @@
 @extends('_master')
 
-<link rel="stylesheet" href="{{URL::asset('/css/empresas.css')}}" type="text/css"> 
-
 @section ('content')
+	<link rel="stylesheet" href="{{URL::asset('/css/empresas.css')}}" type="text/css"> 
 	
 	<!--Recursos Economicos-->
 	<div class="flex-container">	
