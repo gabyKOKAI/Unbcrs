@@ -42,6 +42,6 @@ class EstudiantesController extends Controller {
 	 */
 	public function regEstudiantes()
 	{
-		return view('regunibecario');
+		return view('regUnibecario');
 	}
 }

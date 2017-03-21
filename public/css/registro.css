@@ -1,0 +1,53 @@
+.formaU{
+	background-image: url('/images/registros/RegUniversidades.png');
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	color: white;
+}
+
+.formaB{
+	background-image: url('/images/registros/RegBecarios.png');
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	color: white;
+}
+
+.formaE{
+	background-image: url('/images/registros/RegEmpresas.png');
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	color: white;
+}
+
+label{
+	width: 25%;
+	text-align: left;
+	color: white;
+	font-size: 18px;
+	margin-left:25%;
+}
+
+input.form-control{
+	width: 50%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+textarea#direccion.form-control {
+	width: 50%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.tituloRegistro{
+	width: 15%;
+	margin-left: 5%;
+}
+
+.botonRegistro {
+	background-color: #4673AE;
+	border-color: white;
+	font-size: 200%;
+	margin-left:66%;
+	margin-bottom:3%;
+}

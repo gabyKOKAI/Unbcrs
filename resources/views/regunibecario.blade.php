@@ -1,41 +1,25 @@
 @extends('_master')
 
-<link rel="stylesheet" href="{{URL::asset('/css/regunibecario.css')}}" type="text/css"> 
-
 @section ('content')
+	<link rel="stylesheet" href="{{URL::asset('/css/registro.css')}}" type="text/css"> 
 
-<div class="registro">
-<h2> Regístrate como Unibecario </h2>
-	<div class="forma">
-		{!! Form::open(array('url'=>'/regunibecario'))!!}
-			{!!Form::label('client','Nombre Completo:')!!}
-			</br>
-			{!!Form::text('client', null, array('class'=>'form-control'))!!}
-			<br><br>
-			{!!Form::label('escolaridad','Escolaridad:')!!}
-			</br>
-			{!!Form::text('escolaridad', null, array('class'=>'form-control'))!!}
-			<br><br>
-			{!!Form::label('semestre','Semestre:')!!}
-			</br>
-			{!!Form::text('semestre', null, array('class'=>'form-control'))!!}
-			<br><br>
-			{!!Form::label('email','E-mail:')!!}
-			</br>
-			{!!Form::email('email', null, array('class'=>'form-control'))!!}
-			<br><br>
-			{!!Form::label('phone','Teléfono celular:')!!}
-			</br>
-			{!!Form::number('number', null, array('class'=>'form-control'))!!}
-			<br><br>
-			{!!Form::label('direccion','Dirección:')!!}
-			</br>
-			{!!Form::textarea('direccion', null,['class'=>'form-control', 'rows' => 2, 'cols' => 40]) !!}
-			<br>
-			{!!Form::submit('Enviar', ['class' => 'btn btn-large btn-primary openbutton'])!!}
-			<br><br>
+	<div class="formaB">
+		<h2 class="tituloRegistro"> <br/> Registrate como Unibecario</h2>
+		{!! Form::open(array('url'=>'/regunibecario1'))!!}
+		{!!Form::label('client','Nombre Completo:')!!}
+		{!!Form::text('client', null, array('class'=>'form-control'))!!}
+		{!!Form::label('escolaridad','Escolaridad:')!!}
+		{!!Form::text('escolaridad', null, array('class'=>'form-control'))!!}
+		{!!Form::label('semestre','Semestre:')!!}
+		{!!Form::text('semestre', null, array('class'=>'form-control'))!!}
+		{!!Form::label('email','E-mail:')!!}
+		{!!Form::email('email', null, array('class'=>'form-control'))!!}
+		{!!Form::label('phone','Teléfono celular:')!!}
+		{!!Form::number('number', null, array('class'=>'form-control'))!!}
+		{!!Form::label('direccion','Dirección:')!!}
+		{!!Form::textarea('direccion', null,['class'=>'form-control', 'rows' => 2, 'cols' => 40]) !!}
+		<br/>
+		{!!Form::submit('Enviar', ['class' => 'botonRegistro'])!!}
 	</div>
-</div>
-
-
+	
 @stop

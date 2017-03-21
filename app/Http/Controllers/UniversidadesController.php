@@ -2,6 +2,8 @@
 
 namespace Unbcrs\Http\Controllers;
 
+use Illuminate\Support\Facades\Input;
+
 class UniversidadesController extends Controller {
 
 	/*
@@ -42,7 +44,32 @@ class UniversidadesController extends Controller {
 	 */
 	public function regUniversidades()
 	{
-		return view('reguniversidad');
+		return view('regUniversidad');
 	}
+	
+	public function regUniversidadPost(){		
+        $name= Input::get('client');
+		echo "<script type='text/javascript'>alert('$name');</script>";
+        $contacto= Input::get('contacto');
+        $puesto= Input::get('puesto');
+        $phone= Input::get('number');
+        $direccion=Input::get('direccion');
+        
+        $data = array(
+            'name'=>$name,
+            'contacto'=>$contacto,
+            'puesto'=>$puesto,
+            'phone'=>$phone,
+            'direccion'=>$direccion,
+        );
+
+        Mail::send('mailreguniversidades', $data, function($message) use($data)
+        {
+            $message->to('anapaula@kokai.com.mx', 'Ana Paula')
+                    ->subject('Nueva información de universidad');
+        });
+
+        return redirect('universidades')->with('status', 'Tu información fue enviada');
+    }
 
 }
