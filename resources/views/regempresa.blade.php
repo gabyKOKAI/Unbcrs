@@ -1,37 +1,23 @@
 @extends('_master')
 
-<link rel="stylesheet" href="{{URL::asset('/css/regempresa.css')}}" type="text/css"> 
-
 @section ('content')
+	<link rel="stylesheet" href="{{URL::asset('/css/registro.css')}}" type="text/css"> 
 
-<div class="registro">
-<h2> Registra tu Empresa </h2>
-	<div class="forma">
+	<div class="formaE">
+		<h2 class="tituloRegistro"> <br/> Registra tu Empresa</h2>
 		{!! Form::open(array('url'=>'/regempresa'))!!}
-			{!!Form::label('client','Nombre de la Empresa:')!!}
-			</br>
-			{!!Form::text('client', null, array('class'=>'form-control'))!!}
-			<br><br>
-			{!!Form::label('contacto','Persona para contacto:')!!}
-			</br>
-			{!!Form::text('contacto', null, array('class'=>'form-control'))!!}
-			<br><br>
-			{!!Form::label('rubro','Rubro:')!!}
-			</br>
-			{!!Form::text('rubro', null, array('class'=>'form-control'))!!}
-			<br><br>
-			{!!Form::label('phone','Teléfono:')!!}
-			</br>
-			{!!Form::number('number', null, array('class'=>'form-control'))!!}
-			<br><br>
-			{!!Form::label('direccion','Dirección:')!!}
-			</br>
-			{!!Form::textarea('direccion', null,['class'=>'form-control', 'rows' => 2, 'cols' => 40]) !!}
-			<br>
-			{!!Form::submit('Enviar', ['class' => 'btn btn-large btn-primary openbutton'])!!}
-			<br><br>
+		{!!Form::label('client','Nombre de la Empresa:')!!}
+		{!!Form::text('client', null, array('class'=>'form-control'))!!}
+		{!!Form::label('contacto','Persona para contacto:')!!}
+		{!!Form::text('contacto', null, array('class'=>'form-control'))!!}
+		{!!Form::label('rubro','Rubro:')!!}
+		{!!Form::text('rubro', null, array('class'=>'form-control'))!!}
+		{!!Form::label('phone','Teléfono:')!!}
+		{!!Form::number('number', null, array('class'=>'form-control'))!!}
+		{!!Form::label('direccion','Dirección:')!!}
+		{!!Form::textarea('direccion', null,['class'=>'form-control', 'rows' => 2, 'cols' => 40]) !!}
+		<br/>
+		{!!Form::submit('Enviar', ['class' => 'botonRegistro'])!!}
 	</div>
-</div>
-
 
 @stop

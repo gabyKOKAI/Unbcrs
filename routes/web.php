@@ -47,10 +47,13 @@ Route::get('/universidades', 'UniversidadesController@pagUniversidades');
 Route::get('/blog', 'BlogController@pagBlog');
 Route::get('/avisoPrivacidad', 'AvisoPrivacidadController@pagAvisoPrivacidad');
 Route::get('/regunibecario', 'EstudiantesController@regEstudiantes');
+Route::post('/regunibecario', 'EstudiantesController@regEstudiantesPost');
 Route::get('/regempresa', 'EmpresasController@regEmpresas');
+Route::post('/regempresa','EmpresasController@regEmpresasPost');
 Route::get('/reguniversidad', 'UniversidadesController@regUniversidades');
+Route::post('/reguniversidad','UniversidadesController@regUniversidadPost');
 
-Route::post('/regunibecario',
+Route::post('/regunibecario1',
     array(
     function(){
         $name= Request::input('client');
@@ -84,7 +87,7 @@ Route::post('/regunibecario',
     })
 );
 
-Route::post('/regempresa',
+Route::post('/regempresa1',
     array(
     function(){
         $name= Request::input('client');
@@ -111,32 +114,7 @@ Route::post('/regempresa',
     })
 );
 
-Route::post('/reguniversidad',
-    array(
-    function(){
-        $name= Request::input('client');
-        $contacto= Request::input('contacto');
-        $puesto= Request::input('puesto');
-        $phone= Request::input('number');
-        $direccion=Request::input('direccion');
-        
-        $data = array(
-            'name'=>$name,
-            'contacto'=>$contacto,
-            'puesto'=>$puesto,
-            'phone'=>$phone,
-            'direccion'=>$direccion,
-        );
 
-        Mail::send('mailreguniversidades', $data, function($message) use($data)
-        {
-            $message->to('anapaula@kokai.com.mx', 'Ana Paula')
-                    ->subject('Nueva información de universidad');
-        });
-
-        return redirect('universidades')->with('status', 'Tu información fue enviada');
-    })
-);
 
 
 
