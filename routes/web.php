@@ -53,6 +53,7 @@ Route::post('/regempresa','EmpresasController@regEmpresasPost');
 Route::get('/reguniversidad', 'UniversidadesController@regUniversidades');
 Route::post('/reguniversidad','UniversidadesController@regUniversidadPost');
 
+/*
 Route::post('/regunibecario1',
     array(
     function(){
@@ -85,41 +86,4 @@ Route::post('/regunibecario1',
 
          return redirect('estudiantes')->with('status', 'Tu información fue enviada');
     })
-);
-
-Route::post('/regempresa1',
-    array(
-    function(){
-        $name= Request::input('client');
-        $contacto= Request::input('contacto');
-        $rubro= Request::input('rubro');
-        $phone= Request::input('number');
-        $direccion=Request::input('direccion');
-        
-        $data = array(
-            'name'=>$name,
-            'contacto'=>$contacto,
-            'rubro'=>$rubro,
-            'phone'=>$phone,
-            'direccion'=>$direccion,
-        );
-
-        Mail::send('mailregempresas', $data, function($message) use($data)
-        {
-            $message->to('anapaula@kokai.com.mx', 'Ana Paula')
-                    ->subject('Nueva información de empresa');
-        });
-
-        return redirect('empresas')->with('status', 'Tu información fue enviada');
-    })
-);
-
-
-
-
-
-
-
-
-
-
+);*/
