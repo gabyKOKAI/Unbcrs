@@ -2,6 +2,8 @@
 
 namespace Unbcrs\Http\Controllers;
 
+use Illuminate\Http\Request;
+
 class EmpresasController extends Controller {
 
 	/*
@@ -44,5 +46,35 @@ class EmpresasController extends Controller {
 	{
 		return view('regEmpresa');
 	}
+	
+		/**
+	 * Send information to email from empresas.
+	 *
+	 * @return Response
+	 */
+	public function regEmpresasPost(Request $request){
+		
+		$name= $request->client;
+        $contacto= $request->contacto;
+        $rubro= $request->rubro;
+        $phone= $request->number;
+        $direccion=$request->direccion;
+
+        $data = array(
+            'name'=>$name,
+            'contacto'=>$contacto,
+            'rubro'=>$rubro,
+            'phone'=>$phone,
+            'direccion'=>$direccion,
+        );
+
+        \Mail::send('mailregempresas', $data, function($message) use($data)	
+        {
+            $message->to(env('CONTACT_MAIL'), env('CONTACT_NAME'))
+                    ->subject('[EMPRESA] Nueva información');
+        });
+
+		return redirect('empresas')->with('status', 'Gracias por registrar su Empresa, tu información fue enviada y nos pondremos en contacto contigo.');
+    }
 
 }

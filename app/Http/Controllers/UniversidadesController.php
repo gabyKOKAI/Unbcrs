@@ -2,7 +2,8 @@
 
 namespace Unbcrs\Http\Controllers;
 
-use Illuminate\Support\Facades\Input;
+/*use Illuminate\Support\Facades\Input;*/
+use Illuminate\Http\Request;
 
 class UniversidadesController extends Controller {
 
@@ -47,13 +48,18 @@ class UniversidadesController extends Controller {
 		return view('regUniversidad');
 	}
 	
-	public function regUniversidadPost(){		
-        $name= Input::get('client');
-		echo "<script type='text/javascript'>alert('$name');</script>";
-        $contacto= Input::get('contacto');
-        $puesto= Input::get('puesto');
-        $phone= Input::get('number');
-        $direccion=Input::get('direccion');
+	/**
+	 * Send information to email of univerdiad.
+	 *
+	 * @return Response
+	 */
+	public function regUniversidadPost(Request $request){		
+        $name= $request->client;
+		//echo "<script type='text/javascript'>alert('$name');</script>";
+        $contacto= $request->contacto;
+        $puesto= $request->puesto;
+        $phone= $request->number;
+        $direccion=$request->direccion;
         
         $data = array(
             'name'=>$name,
@@ -63,13 +69,14 @@ class UniversidadesController extends Controller {
             'direccion'=>$direccion,
         );
 
-        Mail::send('mailreguniversidades', $data, function($message) use($data)
+		//to('anapaula@kokai.com.mx', 'Ana Paula')
+        \Mail::send('mailreguniversidades', $data, function($message) use($data)
         {
-            $message->to('anapaula@kokai.com.mx', 'Ana Paula')
-                    ->subject('Nueva información de universidad');
+            $message->to(env('CONTACT_MAIL'), env('CONTACT_NAME'))
+                    ->subject('[Universidad] Nueva información');
         });
 
-        return redirect('universidades')->with('status', 'Tu información fue enviada');
+		return redirect('universidades')->with('status', 'Gracias por registrar tu universidad, tu información fue enviada y nos pondremos en contacto contigo.');
     }
 
 }

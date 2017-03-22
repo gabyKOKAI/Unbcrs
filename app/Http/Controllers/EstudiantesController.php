@@ -2,6 +2,8 @@
 
 namespace Unbcrs\Http\Controllers;
 
+use Illuminate\Http\Request;
+
 class EstudiantesController extends Controller {
 
 	/*
@@ -35,7 +37,7 @@ class EstudiantesController extends Controller {
 		return view('estudiantes');
 	}
 
-/**
+	/**
 	 * Show the register of students.
 	 *
 	 * @return Response
@@ -44,4 +46,41 @@ class EstudiantesController extends Controller {
 	{
 		return view('regUnibecario');
 	}
+	
+	/**
+	 * Send information to email from students.
+	 *
+	 * @return Response
+	 */
+	public function regEstudiantesPost(Request $request){
+
+		$name=$request->client;
+        $escolaridad=$request->escolaridad;
+        $semestre=$request->semestre;
+        $email=$request->email;
+        $phone=$request->number;
+        $direccion=$request->direccion;
+        
+        /*$user= array(
+            'email'=>$email,
+            'name'=>$name,
+        );*/
+
+        $data = array(
+            'email'=>$email,
+            'name'=>$name,
+            'escolaridad'=>$escolaridad,
+            'semestre'=>$semestre,
+            'phone'=>$phone,
+            'direccion'=>$direccion,
+        );
+
+        \Mail::send('mailregunibecarios', $data, function($message) use($data)	
+        {
+            $message->to(env('CONTACT_MAIL'), env('CONTACT_NAME'))
+                    ->subject('[BECARIO] Nueva información');
+        });
+
+		return redirect('estudiantes')->with('status', 'Gracias por registrarte, tu información fue enviada y nos pondremos en contacto contigo.');
+    }
 }
