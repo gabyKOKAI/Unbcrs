@@ -5,7 +5,7 @@
 
 	<div class="formaB">
 		<h2 class="tituloRegistro"> <br/> Registrate como Unibecario</h2>
-		{!! Form::open(array('url'=>'/regunibecario1'))!!}
+		{!! Form::open(array('url'=>'/regunibecario'))!!}
 		{!!Form::label('client','Nombre Completo:')!!}
 		{!!Form::text('client', null, array('class'=>'form-control'))!!}
 		{!!Form::label('escolaridad','Escolaridad:')!!}
