@@ -2,6 +2,8 @@
 
 namespace Unbcrs\Http\Controllers;
 
+use Illuminate\Http\Request;
+
 class EstudiantesController extends Controller {
 
 	/*
@@ -76,7 +78,7 @@ class EstudiantesController extends Controller {
         \Mail::send('mailregunibecarios', $data, function($message) use($data)	
         {
             $message->to(env('CONTACT_MAIL'), env('CONTACT_NAME'))
-                    ->subject('[Becario] Nueva información');
+                    ->subject('[BECARIO] Nueva información');
         });
 
 		return redirect('estudiantes')->with('status', 'Gracias por registrarte, tu información fue enviada y nos pondremos en contacto contigo.');
