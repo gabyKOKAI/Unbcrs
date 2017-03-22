@@ -19,7 +19,7 @@
 			<div class="imgCompromisoTxt">
 				<div class="divBotRegEmpr">
 				</div>
-				<a href="https://www.w3schools.com/html/">
+				<a href="{{ url('regempresa') }}">
 					<img class="imgBotRegEmpr"
 					src="{{URL::asset('/images/empresas/btnRegistroEmpr.png')}}"
 					onmouseover="this.src='{{URL::asset('/images/empresas/btnRegistroEmprUnd.png')}}';"
@@ -37,7 +37,7 @@
 			<div class="imgAhorreTiempoTxt">
 				<div class="div2BotRegEmpr">
 				</div>
-				<a href="https://www.w3schools.com/html/">
+				<a href="{{ url('regempresa') }}">
 					<img class="imgBotRegEmpr"
 					src="{{URL::asset('/images/empresas/btnRegistroEmpr1.png')}}"
 					onmouseover="this.src='{{URL::asset('/images/empresas/btnRegistroEmprUnd1.png')}}';"

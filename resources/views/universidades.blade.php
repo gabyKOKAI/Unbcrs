@@ -16,7 +16,7 @@
 		<div class="imgRegUniversidadesTxt">
 			<div class="imgBotRegUniv">
 			</div>
-			<a href="https://www.w3schools.com/html/">
+			<a href="{{ url('reguniversidad') }}">
 				<img class="imgBotRegUniv"
 				src="{{URL::asset('/images/universidades/btnRegistroUniv.png')}}"
 				onmouseover="this.src='{{URL::asset('/images/universidades/btnRegistroUnivUnd.png')}}';"
