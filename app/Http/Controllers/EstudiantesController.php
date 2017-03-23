@@ -22,10 +22,13 @@ class EstudiantesController extends Controller {
 	 *
 	 * @return void
 	 */
+
+	/*Esta funcion se debe quitar porque sino cuando estas como usuario registrado te lleva solo a home
 	public function __construct()
 	{
 		$this->middleware('guest');
 	}
+	*/
 
 	/**
 	 * Show the application welcome screen to the user.

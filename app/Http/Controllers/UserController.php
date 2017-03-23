@@ -2,7 +2,7 @@
 
 namespace Unbcrs\Http\Controllers;
 
-class AvisoPrivacidadController extends Controller {
+class UserController extends Controller {
 
 	/*
 	|--------------------------------------------------------------------------
@@ -20,21 +20,12 @@ class AvisoPrivacidadController extends Controller {
 	 *
 	 * @return void
 	 */
-	/*Esta funcion se debe quitar porque sino cuando estas como usuario registrado te lleva solo a home
 	public function __construct()
 	{
 		$this->middleware('guest');
 	}
-	*/
 
-	/**
-	 * Show the application welcome screen to the user.
-	 *
-	 * @return Response
-	 */
-	public function pagAvisoPrivacidad()
-	{
-		return view('avisoPrivacidad');
-	}
+
+
 
 }
