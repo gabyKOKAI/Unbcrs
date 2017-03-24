@@ -52,6 +52,14 @@
 		width:30%;
 		margin:10px;
 	}
+
+	.tituloBlog1{
+		color:#7e88ba;
+	}
+	
+	.tituloBlog:hover{
+		color:black;
+	}
 	
 	.divContainer {
 		overflow: hidden;
