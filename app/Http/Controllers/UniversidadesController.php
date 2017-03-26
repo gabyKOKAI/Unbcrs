@@ -48,7 +48,7 @@ class UniversidadesController extends Controller {
 	 */
 	public function regUniversidades()
 	{
-		return view('regUniversidad');
+		return view('reguniversidad');
 	}
 	
 	/**
