@@ -25,7 +25,7 @@
 				</a>
 				</div>
 				<div class="divBotRegBec1">
-				<a href="{{ url('regunibecario') }}">
+				<a href="https://www.facebook.com/unibecarios/">
 					<img class="imgBotRegBecFB"
 					src="{{URL::asset('/images/estudiantes/btnRegistroBecariosFB.png')}}"
 					onmouseover="this.src='{{URL::asset('/images/estudiantes/btnRegistroBecariosFBUnd.png')}}';"

@@ -88,7 +88,7 @@ body{
 }
 */
 .logoMenu{
-	background-image: url('/images/logo.png');
+	background-image: url('/images/logo3.png');
 	background-repeat: no-repeat;
 	background-size: contain;
 	background-position: center center;
@@ -187,12 +187,12 @@ footer .list-inline>li {
 	}
 
     footer .logoFooter{
-		background-image: url('/images/logoSoloFooter.png');
+		background-image: url('/images/logoFooter1.png');
 		background-repeat: no-repeat;
 		background-size: contain;
 		background-position: center center;
 		/*width: 168px;*/
-		height: 105px;
+		height: 84px;
 		/*border: 1px solid #C00;*/
 		}
 	footer .list-inline>li {

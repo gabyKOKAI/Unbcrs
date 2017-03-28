@@ -38,8 +38,8 @@
 				<!--Redes sociales: falta poner padding-->
 				<div class= "col-md-2	" id="social">
 					<a href='https://www.facebook.com/unibecarios/'><img src= "{{URL::asset('/images/logoFB.png')}}" alt="Unibecarios Facebook"/></a>
-					<a href='https://twitter.com/unibecarios'><img src= "{{URL::asset('/images/logoIns.png')}}" alt="Unibecarios Linkedin" /></a>
-					<a href='https://www.linkedin.com/company/unibecarios'><img src= "{{URL::asset('/images/logoTwitter.png')}}" alt="Unibecarios Twitter"/></a>
+					<a href='https://www.linkedin.com/company/unibecarios'><img src= "{{URL::asset('/images/logoIns.png')}}" alt="Unibecarios Linkedin" /></a>
+					<a href='https://twitter.com/unibecarios'><img src= "{{URL::asset('/images/logoTwitter.png')}}" alt="Unibecarios Twitter"/></a>
 				</div>
 			</div>
 			
