@@ -1,7 +1,7 @@
 var imgCubo = [];
-imgCubo[0] = '/images/inicio/cubo_empresas.png' ; //'/images/inicio/cubo_empresas.png';
-imgCubo[1] = '/images/inicio/cubo_estudiantes1.png';
-imgCubo[2] = '/images/inicio/cubo_universidades.png';
+imgCubo[0] = '/images/inicio/cubo_empresas2.png' ; //'/images/inicio/cubo_empresas.png';
+imgCubo[1] = '/images/inicio/cubo_estudiantes2.png';
+imgCubo[2] = '/images/inicio/cubo_universidades2.png';
 
 var altCubo = [];
 altCubo[0] = 'Empresas';

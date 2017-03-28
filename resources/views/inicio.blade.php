@@ -97,16 +97,30 @@
 	<!--Colocacion abajo-->
 	<div class="flex-container">
 		<div class="imgAbjColocacion">
-			<div class="imgAbjColocacionTxt">
-			<div class="spaceCubo">
+			<!--div class="spaceCubo">
+			</div-->
+			<div class="imgAbjColocacionTxt1">
+				<div class="row">
+					<div class="col-md-1"></div>
+					<div class="col-md-10">
+						<!--div class="spaceCubo"></div-->
+						<p class="txtAbjColocacion">
+						Es por eso que, usandola tecnología, creamos comunidades entre 
+							<span class="txtBoldUpper">EMPRESAS, UNIVERSIDADES Y ESTUDIANTES 
+							</span>
+						</p>
+					</div>
+					<div class="col-md-1"></div>
+				</div>
 			</div>
+
 				<div class="imgCubo">
 				
-				<img class="imgCubo1" id="imgCubo" alt="cubo" src="" align="right"/> 
+					<img class="imgCubo1" id="imgCubo" alt="cubo" src="" align="right"/> 
 				<!--height="400px" width="600px" border="5" style="border-color:white;"
 				src="{{URL::asset('/images/inicio/cubo_empresas.png')}}"/-->
 				</div>
-			</div>	
+			<!--/div-->	
 		</div>
 	</div>
 	

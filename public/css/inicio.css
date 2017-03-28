@@ -88,16 +88,75 @@
 	background-size: 100% 100%;
 	height: 175px;
 }
+.imgAbjColocacionTxt1{
+	height: 175px;
+	width:50%;
+	/*border: 1px solid #C00;*/
+}
+
+
+.imgAbjColocacionTxt1{
+	float: left;
+	height: 175px;
+	width:50%;
+	clear: left; 
+	float: left; 
+	position: relative; 
+	
+	/*
+	border: 1px solid black;
+	left: 50%;
+	
+	*/
+}
+
+.txtAbjColocacion{
+	color:white;
+	text-align: center;
+	text-decoration: none;
+	letter-spacing: 1px;
+	line-height: 1.5;
+	width:100%;
+	word-spacing: 1px;
+	vertical-align: text-bottom;
+	display: block; 
+	float: left; 
+	position: relative; 
+	font-family: "Times New Roman", Times, serif;
+	font-style: normal;
+	font-size: 15px;
+	/*
+	border: 1px solid #C00;
+	font-style: italic;
+	font-style: oblique;
+	right: 50%;
+	text-shadow: 3px 2px red;
+	direction: rtl;
+	
+	text-transform: capitalize;
+	text-transform: lowercase;
+	text-transform: uppercase;
+	*/
+}
+
+.txtBoldUpper{
+	font-weight: bold;
+	text-transform: uppercase;
+}
+
 .spaceCubo{
-	height: 55px;
+	height: 50px;
 	width:100%;
 }	
 .imgCubo{
+	/*border: 1px solid #C00;*/
+	float:right;
 	height: 99px;
-	width: 100%;
+	width: 50%;
 }	
+
 .imgCubo1{
-	height: 88px;
+	height: 80px;
 }
 
 .imgProgramas{
@@ -213,11 +272,13 @@
 		flex:5 0px;
 		-webkit-order:2;
 		order:2;
+		float:left;
 		background-image: url('/images/inicio/colocacion_abj.jpg');
 		background-repeat: no-repeat;
 		background-size: 100% 100%;
 		width: 100%;
 		height: 350px;
+		/*border: 1px solid black;*/
 	}
 	.imgAbjColocacionTxt{
 		-webkit-flex: 1 auto;
@@ -229,21 +290,73 @@
 		background-size: 100% 100%;
 		height: 350px;
 	}
-	.spacecCubo{		
+	.imgAbjColocacionTxt1{
 		-webkit-flex: 1 auto;
 		flex:1 auto;
 		-webkit-order:1;
 		order:1;
-		height: 133px;
-		width:100%;
+		float: left;
+		height: 266px;
+		width:50%;
+		clear: left; 
+		float: left; 
+		position: relative; 
+		
+		/*
+		border: 1px solid black;
+		left: 50%;
+		
+		*/
 	}
+	
+	.txtAbjColocacion{
+		color:white;
+		text-align: center;
+		text-decoration: none;
+		letter-spacing: 1px;
+		line-height: 1.5;
+		width:100%;
+		word-spacing: 1px;
+		vertical-align: text-bottom;
+		display: block; 
+		float: left; 
+		position: relative; 
+		font-family: "Times New Roman", Times, serif;
+		font-style: normal;
+		font-size: 30px;
+		/*
+		border: 1px solid #C00;
+		font-style: italic;
+		font-style: oblique;
+		right: 50%;
+		text-shadow: 3px 2px red;
+		direction: rtl;
+		
+		text-transform: capitalize;
+		text-transform: lowercase;
+		text-transform: uppercase;
+		*/
+	}
+	
+	.txtBoldUpper{
+		font-weight: bold;
+		text-transform: uppercase;
+	}
+	
+	.spaceCubo{
+		height: 55px;
+		width:100%;
+		/*border: 1px solid white;*/
+	}	
 	.imgCubo{		
 		-webkit-flex: 1 auto;
 		flex:1 auto;
 		-webkit-order:1;
 		order:1;
+		float:right;
 		height: 266px;
-		width:100%;
+		width:50%;
+		/*border: 1px solid blue;*/
 	}	
 	
 	.imgCubo1{
@@ -251,7 +364,7 @@
 		flex:1 auto;
 		-webkit-order:1;
 		order:1;
-		height: 233px;
+		height: 200px;
 	}
 	
 	.imgProgramas{
