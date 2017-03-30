@@ -44,7 +44,9 @@ class Handler extends ExceptionHandler
      */
     public function render($request, Exception $exception)
     {
-        return parent::render($request, $exception);
+        //return parent::render($request, $exception);
+		//return view()
+		return redirect('somos')->with('error', 'Una disculpa, probablemente hubo algun error en nuestra página, te pedimos intentarlo de nuevo o más tarde, estamos trabajando en ello.');
     }
 
     /**

@@ -72,6 +72,12 @@
 					{{ session('status') }}                 
 				</div>
 			@endif
+			
+			@if (session('error'))                
+				<div class="alert alert-warning">                  
+					{{ session('error') }}                 
+				</div>
+			@endif
 			<div class="row">					
 				@yield('content')
 			</div>
@@ -99,7 +105,7 @@
 						<!--<li><a href='/'>TIPS PARA BECARIOS | </a></li>-->
 						<li><a href='/blog'>BLOG | </a></li>
 						<li><a href='/avisoPrivacidad'>TÉRMINOS DE PRIVACIDAD | </a></li>
-						<li><a href='/'>CONTÁCTANOS </a></li>	
+						<!--li><a href='/'>CONTÁCTANOS </a></li-->	
 					</ul>
           
 				</div>
