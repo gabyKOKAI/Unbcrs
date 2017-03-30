@@ -9,6 +9,7 @@
 		<div>La empresa {{$name}} se registro </div>
 		<div> Contacto: {{$contacto}}</div> 
 		<div> Rubro: {{$rubro}}</div>
+		<div> Correo: {{$email}} </div>
 		<div> Teléfono: {{$phone}} </div>
 		<div> Dirección: {{$direccion}} </div>
 	</body>

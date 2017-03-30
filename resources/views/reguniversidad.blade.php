@@ -12,6 +12,8 @@
 		{!!Form::text('contacto', null, array('class'=>'form-control'))!!}
 		{!!Form::label('puesto','Puesto:')!!}
 		{!!Form::text('puesto', null, array('class'=>'form-control'))!!}
+		{!!Form::label('email','E-mail:')!!}
+		{!!Form::email('email', null, array('class'=>'form-control'))!!}
 		{!!Form::label('phone','Teléfono:')!!}
 		{!!Form::number('number', null, array('class'=>'form-control'))!!}
 		{!!Form::label('direccion','Dirección:')!!}

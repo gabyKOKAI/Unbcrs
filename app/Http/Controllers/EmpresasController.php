@@ -60,6 +60,7 @@ class EmpresasController extends Controller {
 		$name= $request->client;
         $contacto= $request->contacto;
         $rubro= $request->rubro;
+		$email=$request->email;
         $phone= $request->number;
         $direccion=$request->direccion;
 
@@ -67,6 +68,7 @@ class EmpresasController extends Controller {
             'name'=>$name,
             'contacto'=>$contacto,
             'rubro'=>$rubro,
+			'email'=>$email,
             'phone'=>$phone,
             'direccion'=>$direccion,
         );

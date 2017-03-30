@@ -81,15 +81,42 @@
 		</div>	
 		
 		<div class="imgDerQuienes">
-			<div class="imgDerQuienesTxt">
-			</div>	
+			<div class="row">
+				<div class="col-md-1"></div>
+				<div class="col-md-8">
+					<p class="txtDerQuienes">
+						<span class="txtBold">
+							Queremos mejores profesionistas,<br/> mejores mexicanos.
+						</span> 
+						<br/>
+						y podemos lograrlo a través de
+						<br/>
+						ese primer contacto en la vida laboral.						
+					</p>
+				</div>
+				<div class="col-md-2"></div>
+			</div>
 		</div>
 	</div>
 	
 	<!--Colocacion arriba-->
 	<div class="flex-container">
 		<div class="imgArrColocacion">
-			<div class="imgArrColocacionTxt">
+			<div class="spaceCubo"></div>
+			<div class="imgArrColocacionTxt1">
+				<div class="row">
+					<div class="col-md-3"></div>
+					<div class="col-md-7">
+						<p class="txtArrColocacion">
+							Sabemos que 
+							<br/>
+							<span class="txtBold">
+								una colocación laboral exitosa <br/> PUEDE CAMBIAR VIDAS
+							</span>
+						</p>
+					</div>
+					<div class="col-md-2"></div>
+				</div>						
 			</div>	
 		</div>
 	</div>
@@ -114,19 +141,40 @@
 				</div>
 			</div>
 
-				<div class="imgCubo">
-				
-					<img class="imgCubo1" id="imgCubo" alt="cubo" src="" align="right"/> 
-				<!--height="400px" width="600px" border="5" style="border-color:white;"
-				src="{{URL::asset('/images/inicio/cubo_empresas.png')}}"/-->
+			<div class="imgCubo1">
+				<div class="row">
+					<div class="col-md-2"></div>
+					<div class="col-md-8">
+						<img class="imgCubo" id="imgCubo" alt="cubo" src="" />	
+						<!-- align="right" height="400px" width="600px" border="5" style="border-color:white;"
+						src="{{URL::asset('/images/inicio/cubo_empresas.png')}}"/-->
+					</div>
+					<div class="col-md-2"></div>
 				</div>
-			<!--/div-->	
+			</div>	
 		</div>
 	</div>
 	
 	<!--Programas abajo-->
 	<div class="flex-container">
 		<div class="imgProgramas">
+			<div class="row">
+				<!--div class="col-md-1"></div-->
+				<div class="col-md-12">
+					<p class="txtProgramas">
+						Lo que ofrecemos es la creación y administración de
+						<br/>
+						<span class="txtBoldUpper txtBig150">
+							PROGRAMAS DE BECARIOS,
+						</span>
+						<br/>
+						<span class="txtBold">
+							procurando un beneficio integral para todos, <br/> cuidando siempre los lineamientos fiscales, laborales y jurídicos.
+						</span>
+					</p>
+				</div>
+				<!--div class="col-md-1"></div-->
+			</div>
 		</div>
 	</div>
 	
