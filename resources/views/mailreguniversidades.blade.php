@@ -9,6 +9,7 @@
 		<div>La universidad {{$name}} se registro </div>
 		<div> Contacto: {{$contacto}}</div> 
 		<div> Puesto: {{$puesto}}</div>
+		<div> Correo: {{$email}} </div>
 		<div> Teléfono: {{$phone}} </div>
 		<div> Dirección: {{$direccion}} </div>
 	</body>

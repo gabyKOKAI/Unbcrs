@@ -61,6 +61,7 @@ class UniversidadesController extends Controller {
 		//echo "<script type='text/javascript'>alert('$name');</script>";
         $contacto= $request->contacto;
         $puesto= $request->puesto;
+		$email=$request->email;
         $phone= $request->number;
         $direccion=$request->direccion;
         
@@ -68,6 +69,7 @@ class UniversidadesController extends Controller {
             'name'=>$name,
             'contacto'=>$contacto,
             'puesto'=>$puesto,
+			'email'=>$email,
             'phone'=>$phone,
             'direccion'=>$direccion,
         );
