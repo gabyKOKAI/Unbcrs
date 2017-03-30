@@ -92,7 +92,7 @@ body{
 	background-repeat: no-repeat;
 	background-size: contain;
 	background-position: center center;
-	height: 67px;
+	height: 61px;
 }
 #social{
 	padding-top: 1%;
@@ -150,11 +150,11 @@ footer a:focus, a:hover{
 }
 
 footer .logoFooter{
-	background-image: url('/images/logoSoloFooter.png');
+	background-image: url('/images/logoFooter2.png');
 	background-repeat: no-repeat;
 	background-size: contain;
 	background-position: center center;
-	height: 50px;
+	height: 100px;
 	/*border: 1px solid #C00;*/
 }
 
@@ -187,12 +187,12 @@ footer .list-inline>li {
 	}
 
     footer .logoFooter{
-		background-image: url('/images/logoFooter1.png');
+		background-image: url('/images/logoFooter2.png');
 		background-repeat: no-repeat;
 		background-size: contain;
 		background-position: center center;
 		/*width: 168px;*/
-		height: 84px;
+		height: 175px;
 		/*border: 1px solid #C00;*/
 		}
 	footer .list-inline>li {

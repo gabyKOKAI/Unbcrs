@@ -105,7 +105,7 @@
 					<div class="col-md-10">
 						<!--div class="spaceCubo"></div-->
 						<p class="txtAbjColocacion">
-						Es por eso que, usandola tecnología, creamos comunidades entre 
+						Es por eso que, usando la tecnología, creamos comunidades entre 
 							<span class="txtBoldUpper">EMPRESAS, UNIVERSIDADES Y ESTUDIANTES 
 							</span>
 						</p>
